@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Canvas</title>
+</head>
+<body>
+    <canvas id="stage" width="1024" height="768"></canvas>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+    <script>
+        // DOMの読み込み
+        $(function(){
+            // canvasの取得
+            var stage = new createjs.Stage('stage');
+
+            // 図形の描画
+            var circle = new createjs.shape();
+            circle.graphics.beginFill('#00FF00').drawCircle(0,0,40);
+            stage.addChild(circle); //ステージにcircleを配置
+            circle.x = 200;
+            circle.y = 300;
+
+            stage.update(); //描画の更新
+        });
+    </script>
+</body>
+</html>
