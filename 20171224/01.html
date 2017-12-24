@@ -18,7 +18,12 @@
     $(function(){
         console.log('読み込んだよ');
 
-        window.addEventListener('devicemotion',function(evt){
+        window.addEventListener('devicemotion',shakeDevice);
+
+        });
+
+        // スマホを振ったら呼び出される関数
+        function shakeDevice(evt){
             console.log('evt');
             // x軸
             var x = evt.acceleration.x;
@@ -31,7 +36,11 @@
             $('ul li:eq(1)').text('y:' + y);
             $('ul li:eq(2)').text('z:' + z);
 
-        });
+            // スマホを振ったら
+            if( Math.abs(x) > 10 || Math.abs(y) || Math.abs(z) ){
+                $('h1').text('振り終わったよ');
+                window.removeEventListener('devicemotion');
+        }
 
     });
     </script>
