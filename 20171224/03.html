@@ -23,7 +23,18 @@
         console.log(pos);
         var lat = pos.coords.latitude; //緯度
         var lon = pos.coords.longitude; //経度
+
+        lat = calLocation(lat);
+        lo  = calLocation(lon);
+
         console.log('lat: ' + lat, 'lon: ' + lon);
+
+        //少数２桁で切り捨てる関数
+        function csalLocation(num){
+            var numA = num*100; //2桁あがる
+            numA = Math.floor(numA)/100; //2桁切り捨てて2桁さげる
+            return numA;
+        }
 
         });
     });
