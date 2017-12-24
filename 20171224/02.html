@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>devicemotion</title>
+    <title>devicemotion | ジャイロのテスト</title>
 </head>
 <body>
-    <h1>devicemotionのテスト</h1>
+    <h1>devicemotionのテスト | ジャイロのテスト</h1>
     <ul>
         <li></li>
         <li></li>
@@ -18,31 +18,25 @@
     $(function(){
         console.log('読み込んだよ');
 
-        window.addEventListener('devicemotion',shakeDevice);
-
-        });
+        window.addEventListener('devicemotion',orienDevice);
 
         // スマホを振ったら呼び出される関数
         function orienDevice(evt){
             console.log('evt');
-            // // x軸
-            // var x = evt.acceleration.x;
-            // // y軸
-            // var y = evt.acceleration.y;
-            // // z軸
-            // var z = evt.acceleration.z;
-            //
-            // $('ul li:eq(0)').text('x:' + x);
-            // $('ul li:eq(1)').text('y:' + y);
-            // $('ul li:eq(2)').text('z:' + z);
+            // x軸
+            var x = evt.beta;
+            // y軸
+            var y = evt.gamma;
+            // z軸
+            var z = evt.alpha;
 
-            // スマホを振ったら
-            if( Math.abs(x) > 10 || Math.abs(y) > 10 || Math.abs(z) > 10 ){
-                $('h1').text('振り終わったよ');
+            $('ul li:eq(0)').text('x:' + x);
+            $('ul li:eq(1)').text('y:' + y);
+            $('ul li:eq(2)').text('z:' + z);
 
-                window.removeEventListener('devicemotion',shakeDevice);
         }
-    }
+    });
+
     </script>
 </body>
 </html>
