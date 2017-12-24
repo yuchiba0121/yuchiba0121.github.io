@@ -52,6 +52,11 @@
                 if(star.roatation >= 360){
                     star.roatation = 0;
                 }
+
+                rect.y +=5;
+                if(rect.y >stage.canvas.height){
+                    rect.y=0;
+                }
                 stage.update(); //描画の更新
             }
         });
