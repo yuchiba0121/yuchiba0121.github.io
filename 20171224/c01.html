@@ -21,7 +21,18 @@
             circle.x = 200;
             circle.y = 300;
 
-            stage.update(); //描画の更新
+
+            createjs.Ticker.addEventListener('tick',tick);
+            createjs.Ticker.timingMode = createjs.Ticker.RAF_SYNCHED;
+
+            function tick(){
+                circle.x + =5;
+
+                if(circle.x > stage.canvas.width){
+                    circle. = 0;
+                }
+                stage.update(); //描画の更新
+            }
         });
     </script>
 </body>
