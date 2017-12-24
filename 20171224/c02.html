@@ -20,14 +20,14 @@
                 {src:'img/tomato.png'},
                 {src:'img/calcium.png'}
             ];
-
             // loadQueue プリロード　先読み
             var loadQueue = new createjs.LoadQueue();
             // ファイルの指定　読み込み開始
             loadQueue.loadManifest(manifest);
             // 画像を全部読み込み終わったら
             loadQueue.addEventListener('complete',function(){
-                console.log('読み込み完了')
+                console.log('読み込み完了');
+                addStage();
             });
 
             // ステージに配置
