@@ -15,6 +15,11 @@
     <script>
     // DOMの読み込み
     $(function(){
+    console.log('読み込んだよ');
+
+    window.addEventListener('devicemotion',function(evt){
+        console.log(evt);
+    });
 
     });
     </script>
