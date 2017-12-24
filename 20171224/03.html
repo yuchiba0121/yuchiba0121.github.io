@@ -61,7 +61,7 @@
                 var areaName = data.name;
                 $('#areaName').text(areaName);
                 // 気温
-                var areaTemp = data.name;
+                var areaTemp = data.main.temp;
                 areaTemp = areaTemp - 273.15;
                 $('#areaTemp').text(Math.round(areaTemp)+'度');
                 // 湿度
@@ -71,7 +71,7 @@
                 var areaWeather = data.weather[0].description;
                 $('#areaWeather').text(areaWeather);
                 // 天気アイコン
-                var weatherIcon = 'http://openweathermap.org/img/w/'+data.weather[0].icon+'.png';
+                var weatherIcon = 'https://openweathermap.org/img/w/'+data.weather[0].icon+'.png';
                 $('#wearherIcon').append('<img src="'+weatherIcon+'">')
 
             }).fail(function(){
