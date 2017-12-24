@@ -21,9 +21,19 @@
             stage.addChild(circle); //ステージにcircleを配置
             circle.x = 200;
             circle.y = 300;
-            // トゥイーンアニメーション
+            // トゥイーンアニメーショ
+            createjs.Tween.get(circle)
             .to({x:400,y:400,alpha:0.5},1000, createjs.Ease.bounceOut)
             .wait(500)
+            .to({x:400,y:50,alpha:1},500, createjs.Ease.cubicIn)
+            .wait(1000)
+            .to({x:50,y:50,scaleX:2,scaleY:2},400, createjs.Ease.backOut)
+            .call(nextAnime);
+
+            function nextAnime(){
+                createjs.Tween.get(circle).to({scaleX:1,scaleY:1},2000);
+                console.log('nex animation');
+            }
 
             // 星
             var star = new createjs.Shape();
