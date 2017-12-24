@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>devicemotion</title>
 </head>
 <body>
@@ -15,22 +16,22 @@
     <script>
     // DOMの読み込み
     $(function(){
-    console.log('読み込んだよ');
+        console.log('読み込んだよ');
 
-    window.addEventListener('devicemotion',function(evt){
-        console.log(evt);
-        // x軸
-        var x = evt.acceleration.x;
-        // y軸
-        var y = evt.acceleration.y;
-        // z軸
-        var z = evt.acceleration.z;
+        window.addEventListener('devicemotion',function(evt){
+            console.log('evt');
+            // x軸
+            var x = evt.acceleration.x;
+            // y軸
+            var y = evt.acceleration.y;
+            // z軸
+            var z = evt.acceleration.z;
 
-        $('ul li:eq(0)').text('x:' + x);
-        $('ul li:eq(0)').text('y:' + y);
-        $('ul li:eq(0)').text('z:' + z);
+            $('ul li:eq(0)').text('x:' + x);
+            $('ul li:eq(0)').text('y:' + y);
+            $('ul li:eq(0)').text('z:' + z);
 
-    });
+        });
 
     });
     </script>
