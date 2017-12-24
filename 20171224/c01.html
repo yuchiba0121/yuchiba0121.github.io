@@ -21,6 +21,9 @@
             stage.addChild(circle); //ステージにcircleを配置
             circle.x = 200;
             circle.y = 300;
+            // トゥイーンアニメーション
+            .to({x:400,y:400,alpha:0.5},1000, createjs.Ease.bounceOut)
+            .wait(500)
 
             // 星
             var star = new createjs.Shape();
