@@ -42,18 +42,18 @@
             // requestAnimationFrameの実行
             createjs.Ticker.timingMode = createjs.Ticker.RAF_SYNCHED;
 
-            // function tick(){
-            //     circle.x += 5;
-            //     if(circle.x > stage.canvas.width){
-            //         circle.x = 0;
-            //     }
-            //
-            //     star.rotation += 5;
-            //     if(stae.roatation = 0;){
-            //         star.roatation = 0;
-            //     }
-            //     stage.update(); //描画の更新
-            // }
+            function tick(){
+                circle.x += 5;
+                if(circle.x > stage.canvas.width){
+                    circle.x = 0;
+                }
+
+                star.rotation += 5;
+                if(stae.roatation = 0;){
+                    star.roatation = 0;
+                }
+                stage.update(); //描画の更新
+            }
         });
     </script>
 </body>
