@@ -1,0 +1,341 @@
+/* Common Style */
+body{
+    font-family:'Quattrocento Sans','TsukuBRdGothic-Regular';
+}
+
+/* header */
+header{
+    width: 1270px;
+    height: 870px;
+    margin: 0 auto 390px;
+    position: relative;
+}
+
+header h1{
+    width: 247px;
+    height: 107px;
+    position: absolute;
+    top: 163px;
+    left: 322px;
+}
+
+/* header内 2018 SPRING SUMMER */
+header h2{
+    /* width: 206px;
+    height: 463px; */
+    font-size: 56px;
+    line-height: 1.3;
+    letter-spacing: 23px;
+    position: absolute;
+    top: 325px;
+    left: 322px;
+    z-index: 2;
+}
+
+.white{
+    color: #fff;
+}
+
+header .shape1{
+    width: 48px;
+    border-bottom: 1px #000 solid;
+    position: absolute;
+    top: 575px;
+    left: 322px;
+}
+
+header .chakuyou{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 233px;
+    left: 576px;
+    z-index: 1;
+}
+
+header .bg_blue{
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+
+header .bg_red{
+    position: absolute;
+    top: 597px;
+    left: 856px;
+}
+
+header .p1{
+    font-size: 13px;
+    line-height: 1.6;
+    width: 170px;
+    height: 160px;
+    position: absolute;
+    top: 643px;
+    left: 322px;
+}
+
+header .p2{
+    font-size: 18px;
+    position: absolute;
+    top: 630px;
+    left: 135px;
+    transform: rotate(-90deg );
+}
+
+header .arrow1{
+    position: absolute;
+    top: 812px;
+    left: 323px;
+}
+
+
+/* BRAND CONCEPT */
+.bc {
+    width: 1270px;
+    height: 528px;
+    position: relative;
+    margin: 0 auto 450px;
+}
+
+.bc h2{
+    width: 433px;
+    height: 135px;
+    font-size: 56px;
+    letter-spacing: 23px;
+    line-height: 1.3;
+    position: absolute;
+    top: 0px;
+    left: 630px;
+}
+
+.shape2{
+    width: 48px;
+    border-bottom: 1px #000 solid;
+    position: absolute;
+    top: 174px;
+    left: 770px;
+}
+
+.umiear{
+    width: 379px;
+    height: 404px;
+    position: absolute;
+    top: 133px;
+    left: 300px;
+}
+
+.p3{
+    font-size: 13px;
+    line-height: 1.6;
+    width: 165px;
+    height: 131px;
+    position: absolute;
+    top: 240px;
+    left: 770px;
+}
+
+.p4{
+    font-size: 18px;
+    position: absolute;
+    top: 370px;
+    left: 205px;
+    transform: rotate(-90deg );
+}
+
+.arrow2{
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    top: 465px;
+    left: 770px;
+}
+
+
+/* NEW ARRIVAL */
+.na{
+    width: 1270px;
+    height: 700px;
+    position: relative;
+    margin: 0 auto 450px;
+}
+
+.na h2{
+    font-size: 56px;
+    line-height: 1.3;
+    letter-spacing: 23px;
+    position: absolute;
+    top: 0px;
+    left: 322px;
+}
+
+.shape3{
+    width: 48px;
+    border-bottom: 1px #000 solid;
+    position: absolute;
+    top: 176px;
+    left: 320px;
+}
+
+.p5{
+    transform: rotate(-90deg );
+}
+
+.new1 img{
+    position: absolute;
+    top: 241px;
+    left: 282px;
+}
+
+.p5{
+    position: absolute;
+    top: 479px;
+    left: 168px;
+}
+
+.p6/*春の新作入荷しました*/{
+    font-size: 13px;
+    position: absolute;
+    top: 650px;
+    left: 302px;
+}
+
+.new2 img{
+    position: absolute;
+    top: 241px;
+    left: 738px;
+}
+
+.p7{
+    position: absolute;
+    top: 493px;
+    left: 636px;
+    transform: rotate(-90deg);
+}
+
+.p8/*春の新作入荷しました*/{
+    font-size: 13px;
+    position: absolute;
+    top: 650px;
+    left: 759px;
+}
+
+
+/* NEWS */
+
+.news{
+    width: 1270px;
+    height: 430px;
+    position: relative;
+    margin: 0 auto 388px;
+}
+
+.news h2{
+    width: 244px;
+    height: 45px;
+    font-size: 56px;
+    letter-spacing: 23px;
+    position: absolute;
+    top: 0px;
+    left: 500px;
+}
+
+.shape4{
+    width: 48px;
+    border-bottom: 1px #000 solid;
+    position: absolute;
+    top: 91px;
+    left: 568px;
+}
+
+.news p{
+    font-size: 13px;
+}
+
+.p9 /*date1*/{
+    position: absolute;
+    top: 167px;
+    left: 345px;
+}
+
+.p10{
+    position: absolute;
+    top: 167px;
+    left: 640px;
+}
+
+.p11/*date2*/{
+    position: absolute;
+    top: 221px;
+    left: 345px;
+}
+
+.p12{
+    position: absolute;
+    top: 221px;
+    left: 640px;
+}
+
+.p13/*date3*/{
+    position: absolute;
+    top: 275px;
+    left: 345px;
+}
+
+.p14{
+    position: absolute;
+    top: 275px;
+    left: 640px;
+}
+
+.arrow3{
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    top: 366px;
+    left: 640px;
+}
+
+/* PAGE TOP */
+
+.pagetop {
+    position: fixed;
+    right: 50%;
+    margin-right: -654px;
+    bottom: 100px;
+    transform: rotate(-90deg );
+}
+
+/* FOOTER */
+footer{
+    width: 1270px;
+    height: 265px;
+    position: relative;
+    margin: 0 auto 90px;
+}
+
+footer ul{
+    width: 418px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 0;
+}
+
+footer h2{
+    width: 100%;
+    height: 25px;
+    font-size: 26px;
+    letter-spacing: 11px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+footer p{
+    width: 100%;
+    height: 13px;
+    font-size: 12px;
+    letter-spacing: 10px;
+    text-align: center;
+    margin-top: 100px;
+}
