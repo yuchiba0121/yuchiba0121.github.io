@@ -1,6 +1,6 @@
 /* Common Style */
 body{
-    font-family:'Quattrocento Sans','TsukuBRdGothic-Regular';
+    font-family:'Quattrocento Sans'
 }
 
 /* header */
@@ -66,6 +66,7 @@ header .bg_red{
 }
 
 header .p1{
+    font-family: "fot-tsukubrdgothic-std";
     font-size: 13px;
     line-height: 1.6;
     width: 170px;
@@ -126,6 +127,7 @@ header .arrow1{
 }
 
 .p3{
+    font-family: "fot-tsukubrdgothic-std";
     font-size: 13px;
     line-height: 1.6;
     width: 165px;
@@ -194,6 +196,7 @@ header .arrow1{
 }
 
 .p6/*春の新作入荷しました*/{
+    font-family: "fot-tsukubrdgothic-std";
     font-size: 13px;
     position: absolute;
     top: 650px;
@@ -214,6 +217,7 @@ header .arrow1{
 }
 
 .p8/*春の新作入荷しました*/{
+    font-family: "fot-tsukubrdgothic-std";
     font-size: 13px;
     position: absolute;
     top: 650px;
@@ -259,6 +263,7 @@ header .arrow1{
 }
 
 .p10{
+    font-family: "fot-tsukubrdgothic-std";
     position: absolute;
     top: 167px;
     left: 640px;
@@ -271,18 +276,21 @@ header .arrow1{
 }
 
 .p12{
+    font-family: "fot-tsukubrdgothic-std";
     position: absolute;
     top: 221px;
     left: 640px;
 }
 
 .p13/*date3*/{
+
     position: absolute;
     top: 275px;
     left: 345px;
 }
 
 .p14{
+    font-family: "fot-tsukubrdgothic-std";
     position: absolute;
     top: 275px;
     left: 640px;
