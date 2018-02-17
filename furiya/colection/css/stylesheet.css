@@ -1,0 +1,64 @@
+/* Common Style */
+body{
+    font-family:'Quattrocento Sans'
+}
+
+/* UMINORAKAEAMONO */
+.umi{
+    width: 1270px;
+    height: 520px;
+    margin: 298px auto 230px;
+    position: relative;
+    background-color: red;
+}
+
+.umi h1{
+    width: 54px;
+    height: 54px;
+    font-size: 65px;
+    position: relative;
+    top: 0px;
+    left: 197px;
+    z-index: 2;
+}
+
+.chaku_umi{
+    width: 672px;
+    height: 454px;
+    position: relative;
+    top: -38px;
+    left: 121px;
+    z-index: 1;
+}
+
+.umi p{
+    font-family: "fot-tsukubrdgothic-std";
+    font-size: 13px;
+    line-height: 1.6;
+    width: 263px;
+    height: 123px;
+    position: absolute;
+    top: 330px;
+    left: 715px;
+    z-index: 3;
+}
+
+
+
+
+/* arrow */
+.arrow{
+    width: 1270px;
+    height: 190px;
+    margin: 0 auto 111px;
+    position: relative;
+}
+
+.arrow div{
+    width: 54px;
+    height: 54px;
+    position: fixed;
+    top: 132px;
+    left: 335px;
+    z-index: 3;
+}
