@@ -256,7 +256,7 @@ body{
     width: 1270px;
     height: 600px;
     position: relative;
-    margin: 0 auto 385px;
+    margin: 0 auto 100px;
 }
 
 .mizushibuki h1{
@@ -287,6 +287,28 @@ body{
     height: 130px;
 }
 
+.mizushibuki p{
+    font-family: "fot-tsukubrdgothic-std";
+    font-size: 13px;
+    line-height: 1.6;
+    width: 300px;
+    height: 90px;
+    position: absolute;
+    top: 515px;
+    left: 674px;
+}
+
+.white{
+    color: #fff;
+}
+
+.mizushibuki1{
+    width: 240px;
+    height: 365px;
+    position: absolute;
+    top: -300px;
+    left: 1008px;
+}
 
 /* arrow */
 .arrow{
