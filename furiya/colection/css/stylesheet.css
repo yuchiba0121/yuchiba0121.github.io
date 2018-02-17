@@ -135,6 +135,67 @@ body{
     left: 228px;
 }
 
+.taiyou{
+    width: 1270px;
+    height: 550px;
+    position: relative;
+    margin: 0 auto 350px;
+    background-color: red;
+}
+
+.taiyou h1{
+    width: 54px;
+    height: 54px;
+    font-family: 'Lora', serif;
+    font-size: 65px;
+    position: relative;
+    top: 0px;
+    left: 295px;
+    z-index: 2;
+}
+
+.taiyou h2{
+    font-size: 18px;
+    transform: rotate(-90deg );
+    letter-spacing: 1.5px;
+    position: absolute;
+    top: 156px;
+    left: 707px;
+}
+
+.chaku_taiyou{
+    width: 588px;
+    height: 393px;
+    position: absolute;
+    top: 32px;
+    left: 228px;
+}
+
+.taiyou p{
+    font-family: "fot-tsukubrdgothic-std";
+    font-size: 13px;
+    line-height: 1.6;
+    width: 292px;
+    height: 189px;
+    position: absolute;
+    top: 404px;
+    left: 796px;
+}
+
+.taiyou1{
+    width: 200px;
+    height: 474px;
+    position: absolute;
+    top: -220px;
+    left: 978px;
+}
+
+/* AOIROAKAIRO */
+
+.aoaka1{
+
+}
+
 
 /* arrow */
 .arrow{
