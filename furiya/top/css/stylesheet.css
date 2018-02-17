@@ -80,8 +80,9 @@ header .p2{
     font-size: 18px;
     position: absolute;
     top: 630px;
-    left: 135px;
+    left: 113px;
     transform: rotate(-90deg );
+    letter-spacing: 1.5px;
 }
 
 header .arrow1{
@@ -141,8 +142,9 @@ header .arrow1{
     font-size: 18px;
     position: absolute;
     top: 370px;
-    left: 205px;
+    left: 190px;
     transform: rotate(-90deg );
+    letter-spacing: 1.5px;
 }
 
 .arrow2{
@@ -180,7 +182,11 @@ header .arrow1{
 }
 
 .p5{
+    position: absolute;
+    top: 450px;
+    left: 138px;
     transform: rotate(-90deg );
+    letter-spacing: 1.5px;
 }
 
 .new1 img{
@@ -189,18 +195,13 @@ header .arrow1{
     left: 282px;
 }
 
-.p5{
-    position: absolute;
-    top: 479px;
-    left: 168px;
-}
-
 .p6/*春の新作入荷しました*/{
     font-family: "fot-tsukubrdgothic-std";
     font-size: 13px;
     position: absolute;
     top: 650px;
     left: 302px;
+    letter-spacing: 1px;
 }
 
 .new2 img{
@@ -211,9 +212,10 @@ header .arrow1{
 
 .p7{
     position: absolute;
-    top: 493px;
-    left: 636px;
+    top: 464px;
+    left: 611px;
     transform: rotate(-90deg);
+    letter-spacing: 1.5px;
 }
 
 .p8/*春の新作入荷しました*/{
@@ -222,6 +224,7 @@ header .arrow1{
     position: absolute;
     top: 650px;
     left: 759px;
+    letter-spacing: 1px;
 }
 
 
