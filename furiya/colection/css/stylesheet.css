@@ -311,18 +311,17 @@ body{
 }
 
 /* arrow */
-.arrow{
+/* .arrow{
     width: 1270px;
     height: 190px;
     margin: 0 auto 111px;
     position: relative;
-}
+} */
 
 .arrow div{
-    width: 54px;
-    height: 54px;
     position: fixed;
-    top: 132px;
-    left: 335px;
+    left: 50%;
+    margin-left: -660px;
+    bottom: 670px;
     z-index: 3;
 }
