@@ -6,7 +6,7 @@ body{
 /* UMINORAKAEAMONO */
 .umi{
     width: 1270px;
-    height: 520px;
+    height: 530px;
     margin: 298px auto 230px;
     position: relative;
     background-color: red;
@@ -26,9 +26,18 @@ body{
     width: 672px;
     height: 454px;
     position: relative;
-    top: -38px;
+    top: -20px;
     left: 121px;
     z-index: 1;
+}
+
+.umi h2{
+    font-size: 18px;
+    transform: rotate(-90deg );
+    letter-spacing: 1.5px;
+    position: absolute;
+    top: 100px;
+    left: 725px;
 }
 
 .umi p{
@@ -41,6 +50,22 @@ body{
     top: 330px;
     left: 715px;
     z-index: 3;
+}
+
+.umi1{
+    width: 160px;
+    height: 332px;
+    position: absolute;
+    top: -111px;
+    left: 901px;
+}
+
+.umi2{
+    width: 202px;
+    height: 325px;
+    position: absolute;
+    top: 200px;
+    left: 1063px;
 }
 
 
