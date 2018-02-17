@@ -138,7 +138,6 @@ body{
     height: 550px;
     position: relative;
     margin: 0 auto 350px;
-    background-color: red;
 }
 
 .taiyou h1{
@@ -253,7 +252,40 @@ body{
 }
 
 /* MIZUSHIBUKI */
-.mizushibuki
+.mizushibuki{
+    width: 1270px;
+    height: 600px;
+    position: relative;
+    margin: 0 auto 385px;
+}
+
+.mizushibuki h1{
+    width: 54px;
+    height: 54px;
+    font-family: 'Lora', serif;
+    font-size: 65px;
+    position: relative;
+    top: 0px;
+    left: 72px;
+    z-index: 2;
+}
+
+.mizushibuki h2{
+    font-size: 18px;
+    transform: rotate(-90deg );
+    letter-spacing: 1.5px;
+    position: absolute;
+    top: 174px;
+    left: 656px;
+}
+
+.chaku_mizushibuki{
+    width: 784px;
+    height: 523px;
+    position: absolute;
+    top: 32px;
+    height: 130px;
+}
 
 
 /* arrow */
