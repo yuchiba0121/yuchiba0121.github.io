@@ -15,16 +15,17 @@ body{
 .umi h1{
     width: 54px;
     height: 54px;
+    font-family: 'Lora', serif;
     font-size: 65px;
     position: relative;
     top: 0px;
-    left: 197px;
+    left: 198px;
     z-index: 2;
 }
 
 .chaku_umi{
-    width: 672px;
-    height: 454px;
+    width: 674px;
+    height: 456px;
     position: relative;
     top: -20px;
     left: 121px;
@@ -68,7 +69,71 @@ body{
     left: 1063px;
 }
 
+/* OUTOTU */
+.outotu{
+    width: 1270px;
+    height: 670px;
+    position: relative;
+    margin: 0 auto 310px;
+    background-color: red;
+}
 
+.outotu h1{
+    width: 54px;
+    height: 54px;
+    font-family: 'Lora', serif;
+    font-size: 65px;
+    position: relative;
+    top: 0px;
+    left: 795px;
+    z-index: 2;
+}
+
+.outotu h2{
+    font-size: 18px;
+    transform: rotate(-90deg );
+    letter-spacing: 1.5px;
+    position: absolute;
+    top: 94px;
+    left: 663px;
+}
+
+.chaku_outotu{
+    width: 393px;
+    height: 588px;
+    position: absolute;
+    top: 30px;
+    right: 130px;
+    z-index: 1;
+}
+
+.outotu p{
+    font-family: "fot-tsukubrdgothic-std";
+    font-size: 13px;
+    line-height: 1.6;
+    width: 263px;
+    height: 90px;
+    position: absolute;
+    top: 480px;
+    left: 586px;
+    z-index: 2;
+}
+
+.outotu1{
+    width: 187px;
+    height: 323px;
+    position: absolute;
+    top: -27px;
+    left: 423px;
+}
+
+.outotu2{
+    width: 203px;
+    height: 321px;
+    position: absolute;
+    top: 375px;
+    left: 228px;
+}
 
 
 /* arrow */
