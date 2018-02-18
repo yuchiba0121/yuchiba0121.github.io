@@ -4,12 +4,17 @@ body{
 }
 
 /* LOGO */
+header{
+    width: 1500px;
+    height: 150px;
+    margin: 0 auto 0;
+}
+
 header .logo{
     width:  170px;
     position: fixed;
-    left: 50%;
-    margin-left: -760px;
-    bottom: 800px;
+    left: 100px;
+    top: 30px;
     z-index: 3;
 }
 
@@ -17,7 +22,7 @@ header .logo{
 .umi{
     width: 1270px;
     height: 530px;
-    margin: 298px auto 230px;
+    margin: 50px auto 230px;
     position: relative;
 }
 
@@ -342,9 +347,8 @@ header .logo{
     width: 50px;
     height: 20px;
     position: fixed;
-    left: 50%;
-    margin-left: -710px;
-    bottom: 700px;
+    top: 140px;
+    left: 100px;
     z-index: 3;
 }
 
@@ -353,7 +357,6 @@ header .logo{
     font-weight: bold;
     letter-spacing: 8px;
     position: fixed;
-    left: 50%;
-    margin-left: -710px;
-    bottom: 730px;
+    top: 120px;
+    left: 100px;
 }
