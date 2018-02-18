@@ -31,12 +31,12 @@ header .logo{
     z-index: 2;
 }
 
-.chaku_umi{
+.chaku_umi img{
     width: 674px;
     height: 456px;
     position: relative;
     top: -20px;
-    left: 121px;
+    left: 130px;
     z-index: 1;
 }
 
@@ -46,7 +46,7 @@ header .logo{
     letter-spacing: 1.5px;
     position: absolute;
     top: 100px;
-    left: 714px;
+    left: 745px;
 }
 
 .umi p{
@@ -61,20 +61,20 @@ header .logo{
     z-index: 3;
 }
 
-.umi1{
-    width: 160px;
-    height: 332px;
+.umi1 img{
+    width: 109px;
+    height: 225px;
     position: absolute;
-    top: -111px;
-    left: 901px;
+    top: -51px;
+    left: 981px;
 }
 
-.umi2{
-    width: 202px;
-    height: 325px;
+.umi2 img{
+    width: 131px;
+    height: 221px;
     position: absolute;
-    top: 200px;
-    left: 1063px;
+    top: 360px;
+    left: 1075px;
 }
 
 /* OUTOTU */
@@ -100,7 +100,7 @@ header .logo{
     width: 30px;
     height: 30px;
     position: absolute;
-    top: 6;
+    top: 6px;
     left: 800px;
     z-index: 2;
 }
@@ -114,7 +114,7 @@ header .logo{
     left: 659px;
 }
 
-.chaku_outotu{
+.chaku_outotu img{
     width: 393px;
     height: 588px;
     position: absolute;
@@ -135,20 +135,20 @@ header .logo{
     z-index: 2;
 }
 
-.outotu1{
-    width: 187px;
-    height: 323px;
+.outotu1 img{
+    width: 159px;
+    height: 275px;
     position: absolute;
-    top: -27px;
-    left: 423px;
+    top: 30px;
+    left: 352px;
 }
 
-.outotu2{
-    width: 203px;
-    height: 321px;
+.outotu2 img{
+    width: 154px;
+    height: 244px;
     position: absolute;
-    top: 375px;
-    left: 228px;
+    top: 465px;
+    left: 100px;
 }
 
 .taiyou{
@@ -178,7 +178,7 @@ header .logo{
     left: 696px;
 }
 
-.chaku_taiyou{
+.chaku_taiyou img{
     width: 588px;
     height: 393px;
     position: absolute;
@@ -194,14 +194,14 @@ header .logo{
     height: 189px;
     position: absolute;
     top: 404px;
-    left: 796px;
+    left: 788px;
 }
 
-.taiyou1{
-    width: 200px;
-    height: 474px;
+.taiyou1 img{
+    width: 165px;
+    height: 391px;
     position: absolute;
-    top: -220px;
+    top: -140px;
     left: 978px;
 }
 
@@ -233,7 +233,7 @@ header .logo{
     left: 354px;
 }
 
-.chaku_aoaka{
+.chaku_aoaka img{
     width: 684px;
     height: 587px;
     position: absolute;
@@ -253,20 +253,20 @@ header .logo{
     z-index: 2;
 }
 
-.aoaka1{
-    width: 208px;
-    height: 352px;
+.aoaka1 img{
+    width: 165px;
+    height: 279px;
     position: absolute;
-    top: -100px;
-    left: 130px;
+    top: 10px;
+    left: 30px;
 }
 
-.aoaka2{
-    width: 263px;
-    height: 369px;
+.aoaka2 img{
+    width: 198px;
+    height: 278px;
     position: absolute;
-    top: 360px;
-    left: 148px;
+    top: 420px;
+    left: 130px;
 }
 
 /* MIZUSHIBUKI */
@@ -294,15 +294,15 @@ header .logo{
     letter-spacing: 1.5px;
     position: absolute;
     top: 174px;
-    left: 650px;
+    left: 655px;
 }
 
-.chaku_mizushibuki{
-    width: 784px;
-    height: 523px;
+.chaku_mizushibuki img{
+    width: 783px;
+    height: 520px;
     position: absolute;
     top: 32px;
-    height: 130px;
+    left: 8px;
 }
 
 .mizushibuki p{
@@ -320,12 +320,12 @@ header .logo{
     color: #fff;
 }
 
-.mizushibuki1{
-    width: 240px;
-    height: 365px;
+.mizushibuki1 img{
+    width: 197px;
+    height: 297px;
     position: absolute;
-    top: -300px;
-    left: 1008px;
+    top: -200px;
+    left: 1000px;
 }
 
 /* arrow */
