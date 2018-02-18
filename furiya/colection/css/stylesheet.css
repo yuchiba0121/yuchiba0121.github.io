@@ -3,6 +3,15 @@ body{
     font-family:'Quattrocento Sans'
 }
 
+/* LOGO */
+header .logo{
+    width:  170px;
+    position: fixed;
+    left: 50%;
+    margin-left: -710px;
+    bottom: 800px;
+}
+
 /* UMINORAKAEAMONO */
 .umi{
     width: 1270px;
@@ -328,9 +337,21 @@ body{
 } */
 
 .arrow div{
+    width: 50px;
+    height: 20px;
     position: fixed;
     left: 50%;
     margin-left: -660px;
-    bottom: 670px;
+    bottom: 700px;
     z-index: 3;
+}
+
+.arrow p{
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 8px;
+    position: fixed;
+    left: 50%;
+    margin-left: -660px;
+    bottom: 730px;
 }
