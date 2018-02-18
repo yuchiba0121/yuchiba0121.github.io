@@ -343,7 +343,7 @@ header .logo{
     position: relative;
 } */
 
-.arrow div{
+.arrow a{
     width: 50px;
     height: 20px;
     position: fixed;
@@ -352,10 +352,11 @@ header .logo{
     z-index: 3;
 }
 
-.arrow p{
+.back{
     font-size: 12px;
     font-weight: bold;
     letter-spacing: 8px;
+    /* text-decoration: none; */
     position: fixed;
     top: 120px;
     left: 100px;
