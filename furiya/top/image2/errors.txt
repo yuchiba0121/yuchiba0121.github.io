@@ -1,0 +1,1 @@
+[2/18/2018, 12:53:53 PM] layer "UMINOTAKARAMONO.png": Duplicate path: UMINOTAKARAMONO.png
