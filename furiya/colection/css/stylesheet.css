@@ -8,8 +8,9 @@ header .logo{
     width:  170px;
     position: fixed;
     left: 50%;
-    margin-left: -710px;
+    margin-left: -760px;
     bottom: 800px;
+    z-index: 3;
 }
 
 /* UMINORAKAEAMONO */
@@ -231,6 +232,7 @@ header .logo{
     position: absolute;
     top: 180px;
     left: 354px;
+    z-index: 2;
 }
 
 .chaku_aoaka img{
@@ -341,7 +343,7 @@ header .logo{
     height: 20px;
     position: fixed;
     left: 50%;
-    margin-left: -660px;
+    margin-left: -710px;
     bottom: 700px;
     z-index: 3;
 }
@@ -352,6 +354,6 @@ header .logo{
     letter-spacing: 8px;
     position: fixed;
     left: 50%;
-    margin-left: -660px;
+    margin-left: -710px;
     bottom: 730px;
 }
