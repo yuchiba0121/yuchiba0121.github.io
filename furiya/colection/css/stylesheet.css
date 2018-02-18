@@ -37,7 +37,7 @@ body{
     letter-spacing: 1.5px;
     position: absolute;
     top: 100px;
-    left: 725px;
+    left: 714px;
 }
 
 .umi p{
@@ -76,7 +76,7 @@ body{
     margin: 0 auto 290px;
 }
 
-.outotu h1{
+/* .outotu h1{
     width: 54px;
     height: 54px;
     font-family: 'Lora', serif;
@@ -84,6 +84,15 @@ body{
     position: relative;
     top: 0px;
     left: 795px;
+    z-index: 2;
+} */
+
+.svg2{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 6;
+    left: 800px;
     z-index: 2;
 }
 
@@ -93,7 +102,7 @@ body{
     letter-spacing: 1.5px;
     position: absolute;
     top: 94px;
-    left: 663px;
+    left: 659px;
 }
 
 .chaku_outotu{
@@ -157,7 +166,7 @@ body{
     letter-spacing: 1.5px;
     position: absolute;
     top: 156px;
-    left: 707px;
+    left: 696px;
 }
 
 .chaku_taiyou{
@@ -276,7 +285,7 @@ body{
     letter-spacing: 1.5px;
     position: absolute;
     top: 174px;
-    left: 656px;
+    left: 650px;
 }
 
 .chaku_mizushibuki{
