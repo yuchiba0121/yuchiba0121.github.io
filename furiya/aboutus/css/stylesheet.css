@@ -10,7 +10,7 @@ header{
     margin: 0 auto 0;
 }
 
-header .logo{
+header .logo_furiya{
     width:  170px;
     position: fixed;
     left: 100px;
@@ -146,6 +146,8 @@ header .logo{
     position: absolute;
     top: 455px;
     left: 268px;
+    text-decoration: none;
+    color: #000;
 }
 
 /*STONE*/
