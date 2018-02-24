@@ -83,6 +83,16 @@ header .logo{
     left: 1075px;
 }
 
+.unt p{
+    font-family: "fot-tsukubrdgothic-std";
+    font-size: 8px;
+    letter-spacing: 1.3px;
+    /* color: #8F9C9C; */
+    position: absolute;
+    top: 599px;
+    left: 1083px;
+}
+
 /* OUTOTU */
 .outotu{
     width: 1270px;
@@ -157,6 +167,16 @@ header .logo{
     left: 100px;
 }
 
+.o p{
+    font-family: "fot-tsukubrdgothic-std";
+    font-size: 8px;
+    letter-spacing: 1.3px;
+    /* color: #8F9C9C; */
+    position: absolute;
+    top: 729px;
+    left: 170px;
+}
+
 .taiyou{
     width: 1270px;
     height: 550px;
@@ -209,6 +229,16 @@ header .logo{
     position: absolute;
     top: -140px;
     left: 978px;
+}
+
+.ty p{
+    font-family: "fot-tsukubrdgothic-std";
+    font-size: 8px;
+    letter-spacing: 1.3px;
+    /* color: #8F9C9C; */
+    position: absolute;
+    top: 279px;
+    left: 1050px;
 }
 
 /* AOIROAKAIRO */
@@ -276,6 +306,16 @@ header .logo{
     left: 130px;
 }
 
+.aoaka p{
+    font-family: "fot-tsukubrdgothic-std";
+    font-size: 8px;
+    letter-spacing: 1.3px;
+    /* color: #8F9C9C; */
+    position: absolute;
+    top: 295px;
+    left: 78px;
+}
+
 /* MIZUSHIBUKI */
 .mizushibuki{
     width: 1270px;
@@ -335,6 +375,16 @@ header .logo{
     left: 1000px;
 }
 
+.msbk p{
+    font-family: "fot-tsukubrdgothic-std";
+    font-size: 8px;
+    letter-spacing: 1.3px;
+    /* color: #8F9C9C; */
+    position: absolute;
+    top: 65px;
+    left: 1117px;
+}
+
 /* arrow */
 /* .arrow{
     width: 1270px;
@@ -353,7 +403,7 @@ header .logo{
     top: 140px;
     left: 100px;
     z-index: 3;
-    
+
     font-size: 12px;
     font-weight: bold;
     letter-spacing: 8px;
