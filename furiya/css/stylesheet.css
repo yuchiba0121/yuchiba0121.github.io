@@ -3,6 +3,34 @@ body{
     font-family:'Quattrocento Sans'
 }
 
+@keyframes fade-in {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.fade-in{
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+.fade-in1{
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: .8s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
 /* header */
 header{
     width: 1270px;
@@ -17,6 +45,17 @@ header h1{
     position: absolute;
     top: 163px;
     left: 322px;
+
+    transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
+    opacity: 0;
+
+    animation-name: fade-in;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in;
+    animation-delay: 2.5s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
 }
 
 /* header内 2018 SPRING SUMMER */
@@ -30,6 +69,17 @@ header h2{
     top: 325px;
     left: 322px;
     z-index: 2;
+
+    transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
+    opacity: 0;
+
+    animation-name: fade-in;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in;
+    animation-delay: 2.5s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
 }
 
 .white{
@@ -42,6 +92,17 @@ header .shape1{
     position: absolute;
     top: 575px;
     left: 322px;
+
+    transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
+    opacity: 0;
+
+    animation-name: fade-in;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in;
+    animation-delay: 3s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
 }
 
 header .chakuyou{
@@ -51,18 +112,51 @@ header .chakuyou{
     top: 233px;
     left: 576px;
     z-index: 1;
+
+    transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
+    opacity: 0;
+
+    animation-name: fade-in;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
 }
 
 header .bg_blue{
     position: absolute;
     top: 7px;
     left: 7px;
+
+    opacity: 0;
+    transition: .4s cubic-bezier(0, 0, 0.67, 0.82);
+
+    animation-name: fade-in;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
 }
 
 header .bg_red{
     position: absolute;
     top: 597px;
     left: 856px;
+
+    opacity: 0;
+    transition: .2s cubic-bezier(0, 0, 0.67, 0.82);
+
+    animation-name: fade-in;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in;
+    animation-delay: 1.5s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
 }
 
 header .p1{
@@ -74,21 +168,59 @@ header .p1{
     position: absolute;
     top: 643px;
     left: 322px;
+
+    opacity: 0;
+    animation-name: fade-in;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in;
+    animation-delay: 3s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
 }
 
 header .p2{
+    opacity: 0;
+    animation-name: fade-in;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in;
+    animation-delay: 3.2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+.p2Rotate{
     font-size: 18px;
     position: absolute;
     top: 630px;
     left: 113px;
-    transform: rotate(-90deg );
     letter-spacing: 1.5px;
+
+    transform: rotate(-90deg );
 }
 
 header .arrow1{
     position: absolute;
     top: 812px;
     left: 323px;
+
+    opacity: 0;
+    animation-name: fade-in;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in;
+    animation-delay: 3s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+.arrow1 img{
+    transition: 1s;
+}
+
+.arrow1 img:hover{
+    opacity:0.5;
 }
 
 
@@ -97,7 +229,7 @@ header .arrow1{
     width: 1270px;
     height: 528px;
     position: relative;
-    margin: 0 auto 450px;
+    margin: 0 auto 300px;
 }
 
 .bc h2{
@@ -107,24 +239,42 @@ header .arrow1{
     letter-spacing: 23px;
     line-height: 1.3;
     position: absolute;
-    top: 0px;
+    top: 160px;
     left: 630px;
+
+    transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 .shape2{
     width: 48px;
     border-bottom: 1px #000 solid;
     position: absolute;
-    top: 174px;
+    top: 334px;
     left: 770px;
+
+    transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 .umiear{
-    width: 379px;
-    height: 404px;
+    width: 227px;
+    height: 287px;
     position: absolute;
-    top: 133px;
+    top: 510px;
     left: 300px;
+
+    opacity: 0;
+    transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
+}
+
+.umiear2{
+    width: 159px;
+    height: 324px;
+    position: absolute;
+    top: 285px;
+    left: 514px;
+
+    opacity: 0;
+    transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 .p3{
@@ -139,6 +289,10 @@ header .arrow1{
 }
 
 .p4{
+    transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
+}
+
+.p4Rotate{
     font-size: 18px;
     position: absolute;
     top: 370px;
@@ -155,6 +309,14 @@ header .arrow1{
     left: 770px;
 }
 
+.arrow2 img{
+    transition: 1s ;
+}
+
+.arrow2 img:hover{
+	opacity: 0.5 ;
+}
+
 
 /* NEW ARRIVAL */
 .na{
@@ -169,21 +331,25 @@ header .arrow1{
     line-height: 1.3;
     letter-spacing: 23px;
     position: absolute;
-    top: 0px;
+    top: 370px;
     left: 322px;
+
+    transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 .shape3{
     width: 48px;
     border-bottom: 1px #000 solid;
     position: absolute;
-    top: 176px;
+    top: 537px;
     left: 320px;
+
+    transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
-.p5{
+.p5Rotate{
     position: absolute;
-    top: 450px;
+    top: 820px;
     left: 138px;
     transform: rotate(-90deg );
     letter-spacing: 1.5px;
@@ -191,40 +357,53 @@ header .arrow1{
 
 .new1 img{
     position: absolute;
-    top: 241px;
+    top: 471px;
     left: 285px;
+
+    opacity: 0;
+    transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 .p6/*春の新作入荷しました*/{
     font-family: "fot-tsukubrdgothic-std";
     font-size: 13px;
     position: absolute;
-    top: 650px;
+    top: 855px;
     left: 302px;
     letter-spacing: 1px;
+
+    transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 .new2 img{
     position: absolute;
-    top: 241px;
+    top: 471px;
     left: 741px;
+
+    opacity: 0;
+    transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
-.p7{
+
+.p7Rotate{
     position: absolute;
-    top: 464px;
+    top: 804px;
     left: 608px;
     transform: rotate(-90deg);
     letter-spacing: 1.5px;
 }
 
+
+
 .p8/*春の新作入荷しました*/{
     font-family: "fot-tsukubrdgothic-std";
     font-size: 13px;
     position: absolute;
-    top: 650px;
+    top: 855px;
     left: 759px;
     letter-spacing: 1px;
+
+    transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 
@@ -234,7 +413,7 @@ header .arrow1{
     width: 1270px;
     height: 430px;
     position: relative;
-    margin: 0 auto 388px;
+    margin: 0 auto 700px;
 }
 
 .news h2{
@@ -243,7 +422,7 @@ header .arrow1{
     font-size: 56px;
     letter-spacing: 23px;
     position: absolute;
-    top: 0px;
+    top: 480px;
     left: 500px;
 }
 
@@ -251,7 +430,7 @@ header .arrow1{
     width: 48px;
     border-bottom: 1px #000 solid;
     position: absolute;
-    top: 91px;
+    top: 567px;
     left: 568px;
 }
 
@@ -313,6 +492,9 @@ header .arrow1{
 }
 
 /* PAGE TOP */
+.pagetop p{
+    transform: rotate(-90deg );
+}
 
 .pagetop {
     font-size: 12px;
@@ -321,8 +503,13 @@ header .arrow1{
     right: 50%;
     margin-right: -715px;
     bottom: 100px;
-    transform: rotate(-90deg );
+    transform: translateY(220px);
     letter-spacing: 8px;
+    transition: all 1s;
+}
+
+.pagetop.in {
+    transform: translateY(0px);
 }
 
 /* FOOTER */
@@ -342,7 +529,7 @@ footer ul{
 }
 
 
-footer h2{
+footer .contact{
     width: 100%;
     height: 25px;
     font-size: 26px;
