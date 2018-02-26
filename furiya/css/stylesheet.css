@@ -21,7 +21,7 @@ body{
     animation-direction: normal;
     animation-fill-mode: forwards;
 }
-.fade-in1{
+/* .fade-in1{
     animation-name: fade-in;
     animation-duration: 1s;
     animation-timing-function: ease-in;
@@ -29,7 +29,7 @@ body{
     animation-iteration-count: 1;
     animation-direction: normal;
     animation-fill-mode: forwards;
-}
+} */
 
 /* header */
 header{
@@ -356,6 +356,8 @@ header .arrow1{
 }
 
 .aoiroakairoPic{
+    width: 290px;
+    height: 353px;
     position: absolute;
     top: 851px;
     left: 285px;
@@ -376,6 +378,8 @@ header .arrow1{
 }
 
 .taiyouPic{
+    width: 290px;
+    height: 353px;
     position: absolute;
     top: 631px;
     left: 741px;

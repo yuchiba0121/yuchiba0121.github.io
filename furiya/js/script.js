@@ -46,15 +46,15 @@ $(function() {
 
         $('.aoiroakairoPic').addClass('fade-in').css('transform', 'translateY('+ scrollNum * -0.3 + 'px )');
 
-        $('.taiyouPic').addClass('fade-in1').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
+        $('.taiyouPic').addClass('fade-in').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
 
         // $('.p5').css('transform', 'translateX('+ scrollNum * +0.2 + 'px )');
 
-        $('.p6').addClass('fade-in1').css('transform', 'translateY('+ scrollNum * -0.3 + 'px )');
+        $('.p6').addClass('fade-in').css('transform', 'translateY('+ scrollNum * -0.3 + 'px )');
 
         // $('.p7').css('transform', 'translateX('+ scrollNum * +0.2 + 'px )');
 
-        $('.p8').addClass('fade-in1').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
+        $('.p8').addClass('fade-in').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
 
 
         // NEWS
