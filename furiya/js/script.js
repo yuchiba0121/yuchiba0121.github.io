@@ -96,6 +96,12 @@ $(function() {
         $('.taiyouPic').addClass('fade-in');
 });
 
+});
 
+// PAGETOPに戻る
+    $('pagetop').click(function(){
+        $('body,html').animate({
+        scrollTop: 0},90);
+        return false;
 
 });

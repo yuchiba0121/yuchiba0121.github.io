@@ -496,12 +496,14 @@ header .arrow1{
 
 /* PAGE TOP */
 .pagetop p{
+    width: 118px;
+    height: 12px;
+    font-size: 12px;
+    font-weight: bold;
     transform: rotate(-90deg );
 }
 
 .pagetop {
-    font-size: 12px;
-    font-weight: bold;
     position: fixed;
     right: 50%;
     margin-right: -715px;
@@ -513,6 +515,11 @@ header .arrow1{
 
 .pagetop.in {
     transform: translateY(0px);
+}
+
+.pagetop a{
+        text-decoration: none;
+        color: #000;
 }
 
 /* FOOTER */
