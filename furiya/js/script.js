@@ -19,7 +19,7 @@ $(function() {
 
         $('.shape1').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
 
-        $('.bg_red').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
+        $('.bg_red').css('transform', 'translateY('+ scrollNum * -0.09 + 'px )');
 
         // $('.bg_blue').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
 
