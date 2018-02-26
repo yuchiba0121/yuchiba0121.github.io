@@ -23,7 +23,7 @@ $(function() {
 
         // $('.bg_blue').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
 
-        $('.p2').css('transform', 'translateX('+ scrollNum * +0.1 + 'px )');
+        // $('.p2').css('transform', 'translateX('+ scrollNum * +0.1 + 'px )');
 
 
     // } else if (scrollNum > 550 && scrollNum <= 1600 ){
@@ -43,13 +43,13 @@ $(function() {
         // NEWARRIVAL
         $('.shape3').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
 
-        $('.aoiroakairoPic').addClass('fade-in').css('transform', 'translateY('+ scrollNum * -0.3 + 'px )');
+        $('.aoiroakairoPic').addClass('fade-in').css('transform', 'translateY('+ scrollNum * -0.25 + 'px )');
 
         $('.taiyouPic').addClass('fade-in').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
 
         // $('.p5').css('transform', 'translateX('+ scrollNum * +0.2 + 'px )');
 
-        $('.p6').addClass('fade-in').css('transform', 'translateY('+ scrollNum * -0.3 + 'px )');
+        $('.p6').addClass('fade-in').css('transform', 'translateY('+ scrollNum * -0.25 + 'px )');
 
         // $('.p7').css('transform', 'translateX('+ scrollNum * +0.2 + 'px )');
 
@@ -94,6 +94,11 @@ $(function() {
         // 要素がウィンドウの表示領域に現れたときに実行する処理
         $('.new2 img').addClass('fade-in');
 });
+
+//     $('.p2Rotate p').on('inview', function() {
+//         // 要素がウィンドウの表示領域に現れたときに実行する処理
+//         $('p2Rotate p').addClass('fade-in');
+// });
 
 });
 

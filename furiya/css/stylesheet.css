@@ -361,9 +361,9 @@ header .arrow1{
     width: 290px;
     height: 353px;
     position: absolute;
-    top: 851px;
+    top: 691px;
     left: 285px;
-    transition: 2s cubic-bezier(0, 0, 0.35, 1.09);
+    transition: .6s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 .new1 img{
@@ -374,20 +374,20 @@ header .arrow1{
     font-family: "fot-tsukubrdgothic-std";
     font-size: 13px;
     position: absolute;
-    top: 1245px;
+    top: 1070px;
     left: 302px;
     letter-spacing: 1px;
 
-    transition: 2s cubic-bezier(0, 0, 0.35, 1.09);
+    transition: .6s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 .taiyouPic{
     width: 290px;
     height: 353px;
     position: absolute;
-    top: 631px;
+    top: 624px;
     left: 741px;
-    transition: .6s cubic-bezier(0, 0, 0.35, 1.09);
+    transition: .3s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 .new2 img{
@@ -402,17 +402,15 @@ header .arrow1{
     letter-spacing: 1.5px;
 }
 
-
-
 .p8/*春の新作入荷しました*/{
     font-family: "fot-tsukubrdgothic-std";
     font-size: 13px;
     position: absolute;
-    top: 1025px;
+    top: 1008px;
     left: 759px;
     letter-spacing: 1px;
 
-    transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
+    transition: .3s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 
