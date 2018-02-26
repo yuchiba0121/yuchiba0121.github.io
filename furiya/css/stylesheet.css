@@ -361,9 +361,11 @@ header .arrow1{
     position: absolute;
     top: 851px;
     left: 285px;
+}
 
+.new1 img{
     opacity: 0;
-    transition: 1s cubic-bezier(0, 0, 0.35, 1.09);
+    transition: 2s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 .p6/*春の新作入荷しました*/{
@@ -383,7 +385,9 @@ header .arrow1{
     position: absolute;
     top: 631px;
     left: 741px;
+}
 
+.new2 img{
     opacity: 0;
     transition: .6s cubic-bezier(0, 0, 0.35, 1.09);
 }

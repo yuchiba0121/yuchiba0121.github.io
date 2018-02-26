@@ -86,14 +86,14 @@ $(function() {
         $('.umiear2').addClass('fade-in');
 });
 
-    $('.aoiroakairoPic').on('inview', function() {
+    $('.new1 img').on('inview', function() {
         // 要素がウィンドウの表示領域に現れたときに実行する処理
-        $('.aoiroakairoPic').addClass('fade-in');
+        $('.new1 img').addClass('fade-in');
 });
 
-    $('.taiyouPic').on('inview', function() {
+    $('.new2 img').on('inview', function() {
         // 要素がウィンドウの表示領域に現れたときに実行する処理
-        $('.taiyouPic').addClass('fade-in');
+        $('.new2 img').addClass('fade-in');
 });
 
 });
@@ -101,7 +101,6 @@ $(function() {
 // PAGETOPに戻る
     $('pagetop').click(function(){
         $('body,html').animate({
-        scrollTop: 0},90);
+        scrollTop: 0},slow);
         return false;
-
 });
