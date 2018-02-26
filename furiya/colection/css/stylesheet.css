@@ -89,32 +89,37 @@ header .logo{
     z-index: 3;
 }
 
-.umi1{
+.umi1 img{
     width: 109px;
     height: 225px;
     position: absolute;
     top: -51px;
     left: 981px;
 
-    transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
+    transition: .2s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
-.umi2{
+.umi2 img{
     width: 131px;
     height: 221px;
     position: absolute;
     top: 360px;
     left: 1075px;
+
+    transition: .6s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 .unt p{
-    font-family: "fot-tsukubrdgothic-std";
     font-size: 8px;
     letter-spacing: 1.3px;
     /* color: #8F9C9C; */
     position: absolute;
-    top: 599px;
+    top: 90px;
     left: 1083px;
+}
+
+.unt{
+    transition: .6s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 /* OUTOTU */
@@ -192,7 +197,6 @@ header .logo{
 }
 
 .o p{
-    font-family: "fot-tsukubrdgothic-std";
     font-size: 8px;
     letter-spacing: 1.3px;
     /* color: #8F9C9C; */
@@ -256,7 +260,6 @@ header .logo{
 }
 
 .ty p{
-    font-family: "fot-tsukubrdgothic-std";
     font-size: 8px;
     letter-spacing: 1.3px;
     /* color: #8F9C9C; */
@@ -331,7 +334,6 @@ header .logo{
 }
 
 .aoaka p{
-    font-family: "fot-tsukubrdgothic-std";
     font-size: 8px;
     letter-spacing: 1.3px;
     /* color: #8F9C9C; */
@@ -400,7 +402,6 @@ header .logo{
 }
 
 .msbk p{
-    font-family: "fot-tsukubrdgothic-std";
     font-size: 8px;
     letter-spacing: 1.3px;
     /* color: #8F9C9C; */
