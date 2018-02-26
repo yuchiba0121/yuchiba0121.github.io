@@ -26,6 +26,13 @@ $(function() {
 
         $('.ty p').css('transform', 'translateY('+ scrollNum * -0.1 + 'px )');
 
+        //AOIROAKAIRO
+        $('.aoaka1 img').css('transform', 'translateY('+ scrollNum * -0.3 + 'px )');
+
+        $('.aoaka2 img').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
+
+        $('.aoaka p').css('transform', 'translateY('+ scrollNum * -0.3 + 'px )');
+
         // MIZUSHIBUKI
         $('.mizushibuki1 img').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
 

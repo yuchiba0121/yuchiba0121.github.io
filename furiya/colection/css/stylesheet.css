@@ -330,16 +330,20 @@ header .logo{
     width: 165px;
     height: 279px;
     position: absolute;
-    top: 10px;
+    top: 720px;
     left: 30px;
+
+    transition: .5s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 .aoaka2 img{
     width: 198px;
     height: 278px;
     position: absolute;
-    top: 420px;
+    top: 1000px;
     left: 130px;
+
+    transition: .3s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 .aoaka p{
@@ -347,8 +351,10 @@ header .logo{
     letter-spacing: 1.3px;
     /* color: #8F9C9C; */
     position: absolute;
-    top: 295px;
+    top: 1015px;
     left: 78px;
+
+    transition: .5s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 /* MIZUSHIBUKI */
@@ -408,7 +414,7 @@ header .logo{
     width: 197px;
     height: 297px;
     position: absolute;
-    top: 650px;
+    top: 610px;
     left: 1000px;
 
     transition: .5s cubic-bezier(0, 0, 0.35, 1.09);
@@ -419,7 +425,7 @@ header .logo{
     letter-spacing: 1.3px;
     /* color: #8F9C9C; */
     position: absolute;
-    top: 915px;
+    top: 875px;
     left: 1117px;
 }
 
