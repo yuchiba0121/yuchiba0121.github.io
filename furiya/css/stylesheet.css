@@ -349,15 +349,15 @@ header .arrow1{
 
 .p5Rotate{
     position: absolute;
-    top: 420px;
+    top: 462px;
     left: 138px;
     transform: rotate(-90deg );
     letter-spacing: 1.5px;
 }
 
-.new1 img{
+.aoiroakairoPic{
     position: absolute;
-    top: 471px;
+    top: 851px;
     left: 285px;
 
     opacity: 0;
@@ -368,25 +368,25 @@ header .arrow1{
     font-family: "fot-tsukubrdgothic-std";
     font-size: 13px;
     position: absolute;
-    top: 855px;
+    top: 1245px;
     left: 302px;
     letter-spacing: 1px;
 
-    transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
+    transition: 1s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
-.new2 img{
+.taiyouPic{
     position: absolute;
-    top: 471px;
+    top: 631px;
     left: 741px;
 
     opacity: 0;
-    transition: 2s cubic-bezier(0, 0, 0.35, 1.09);
+    transition: .6s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 .p7Rotate{
     position: absolute;
-    top: 337px;
+    top: 417px;
     left: 608px;
     transform: rotate(-90deg);
     letter-spacing: 1.5px;
@@ -398,7 +398,7 @@ header .arrow1{
     font-family: "fot-tsukubrdgothic-std";
     font-size: 13px;
     position: absolute;
-    top: 855px;
+    top: 1025px;
     left: 759px;
     letter-spacing: 1px;
 

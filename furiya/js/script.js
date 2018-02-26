@@ -44,17 +44,17 @@ $(function() {
         // NEWARRIVAL
         $('.shape3').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
 
-        $('.new1 img').addClass('fade-in').css('transform', 'translateY('+ scrollNum * -0.1 + 'px )');
+        $('.aoiroakairoPic').addClass('fade-in').css('transform', 'translateY('+ scrollNum * -0.3 + 'px )');
 
-        $('.new2 img').addClass('fade-in1').css('transform', 'translateY('+ scrollNum * -0.15 + 'px )');
+        $('.taiyouPic').addClass('fade-in1').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
 
         // $('.p5').css('transform', 'translateX('+ scrollNum * +0.2 + 'px )');
 
-        $('.p6').addClass('fade-in1').css('transform', 'translateY('+ scrollNum * -0.1 + 'px )');
+        $('.p6').addClass('fade-in1').css('transform', 'translateY('+ scrollNum * -0.3 + 'px )');
 
         // $('.p7').css('transform', 'translateX('+ scrollNum * +0.2 + 'px )');
 
-        $('.p8').addClass('fade-in1').css('transform', 'translateY('+ scrollNum * -0.15 + 'px )');
+        $('.p8').addClass('fade-in1').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
 
 
         // NEWS
@@ -86,14 +86,14 @@ $(function() {
         $('.umiear2').addClass('fade-in');
 });
 
-    $('.new1 img').on('inview', function() {
+    $('.aoiroakairoPic').on('inview', function() {
         // 要素がウィンドウの表示領域に現れたときに実行する処理
-        $('.new1 img').addClass('fade-in');
+        $('.aoiroakairoPic').addClass('fade-in');
 });
 
-    $('.new2 img').on('inview', function() {
+    $('.taiyouPic').on('inview', function() {
         // 要素がウィンドウの表示領域に現れたときに実行する処理
-        $('.new2 img').addClass('fade-in');
+        $('.taiyouPic').addClass('fade-in');
 });
 
 
