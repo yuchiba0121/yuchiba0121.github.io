@@ -184,7 +184,7 @@ header .logo{
     width: 159px;
     height: 275px;
     position: absolute;
-    top: 30px;
+    top: 60px;
     left: 352px;
 
     transition: .2s cubic-bezier(0, 0, 0.35, 1.09);
