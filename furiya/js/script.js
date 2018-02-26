@@ -81,19 +81,19 @@ $(function() {
         $('.umiear').addClass('fade-in');
 });
 
-    $('.umiear').on('inview', function() {
+    $('.umiear2').on('inview', function() {
         // 要素がウィンドウの表示領域に現れたときに実行する処理
         $('.umiear2').addClass('fade-in');
 });
 
-    $('.aoiroakairoPic').on('inview', function() {
+    $('.new1 img').on('inview', function() {
         // 要素がウィンドウの表示領域に現れたときに実行する処理
-        $('.aoiroakairoPic').addClass('fade-in');
+        $('.new1 img').addClass('fade-in');
 });
 
-    $('.aoiroakairoPic').on('inview', function() {
+    $('.new2 img').on('inview', function() {
         // 要素がウィンドウの表示領域に現れたときに実行する処理
-        $('.taiyouPic').addClass('fade-in');
+        $('.new2 img').addClass('fade-in');
 });
 
 

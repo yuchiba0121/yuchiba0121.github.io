@@ -361,12 +361,7 @@ header .arrow1{
     left: 285px;
 
     opacity: 0;
-    transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
-}
-
-.aoiroakairoPic{
-        opacity: 0;
-        transition: 1s cubic-bezier(0, 0, 0.35, 1.09);
+    transition: 1s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 .p6/*春の新作入荷しました*/{
@@ -386,14 +381,8 @@ header .arrow1{
     left: 741px;
 
     opacity: 0;
-    transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
+    transition: 2s cubic-bezier(0, 0, 0.35, 1.09);
 }
-
-.taiyouPic{
-    opacity: 0;
-    transition: 1s cubic-bezier(0, 0, 0.35, 1.09);
-}
-
 
 .p7Rotate{
     position: absolute;
