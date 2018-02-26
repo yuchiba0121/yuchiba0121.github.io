@@ -131,7 +131,7 @@ header .bg_blue{
     left: 7px;
 
     opacity: 0;
-    transition: .4s cubic-bezier(0, 0, 0.67, 0.82);
+    /* transition: .4s cubic-bezier(0, 0, 0.67, 0.82); */
 
     animation-name: fade-in;
     animation-duration: 1.2s;
@@ -188,6 +188,8 @@ header .p2{
     animation-iteration-count: 1;
     animation-direction: normal;
     animation-fill-mode: forwards;
+
+    transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 .p2Rotate{
@@ -361,11 +363,11 @@ header .arrow1{
     position: absolute;
     top: 851px;
     left: 285px;
+    transition: 2s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 .new1 img{
     opacity: 0;
-    transition: 2s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 .p6/*春の新作入荷しました*/{
@@ -376,7 +378,7 @@ header .arrow1{
     left: 302px;
     letter-spacing: 1px;
 
-    transition: 1s cubic-bezier(0, 0, 0.35, 1.09);
+    transition: 2s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 .taiyouPic{
@@ -385,11 +387,11 @@ header .arrow1{
     position: absolute;
     top: 631px;
     left: 741px;
+    transition: .6s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 .new2 img{
     opacity: 0;
-    transition: .6s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 .p7Rotate{

@@ -22,9 +22,9 @@ $(function() {
 
         $('.bg_red').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
 
-        $('.bg_blue').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
+        // $('.bg_blue').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
 
-        // $('.p2').css('transform', 'translateX('+ scrollNum * +0.1 + 'px )');
+        $('.p2').css('transform', 'translateX('+ scrollNum * +0.1 + 'px )');
 
 
     // } else if (scrollNum > 550 && scrollNum <= 1600 ){
