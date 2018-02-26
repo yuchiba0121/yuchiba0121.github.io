@@ -24,9 +24,7 @@ $(function() {
 
         $('.bg_blue').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
 
-        $('.p2').css('transform', 'translateX('+ scrollNum * +0.1 + 'px )');
-
-        console.log('0-900');
+        // $('.p2').css('transform', 'translateX('+ scrollNum * +0.1 + 'px )');
 
 
     // } else if (scrollNum > 550 && scrollNum <= 1600 ){
@@ -40,8 +38,6 @@ $(function() {
 
         $('.p4').css('transform', 'translateX('+ scrollNum * +0.1 + 'px )');
 
-        console.log('500-1600');
-
 
     // } else if (scrollNum > 1600 && scrollNum <= 2800 ){
 
@@ -50,15 +46,15 @@ $(function() {
 
         $('.new1 img').addClass('fade-in').css('transform', 'translateY('+ scrollNum * -0.1 + 'px )');
 
-        $('.new2 img').addClass('fade-in1').css('transform', 'translateY('+ scrollNum * -0.1 + 'px )');
+        $('.new2 img').addClass('fade-in1').css('transform', 'translateY('+ scrollNum * -0.15 + 'px )');
 
-        $('.p5').css('transform', 'translateX('+ scrollNum * +0.2 + 'px )');
+        // $('.p5').css('transform', 'translateX('+ scrollNum * +0.2 + 'px )');
 
         $('.p6').addClass('fade-in1').css('transform', 'translateY('+ scrollNum * -0.1 + 'px )');
 
-        $('.p7').css('transform', 'translateX('+ scrollNum * +0.2 + 'px )');
+        // $('.p7').css('transform', 'translateX('+ scrollNum * +0.2 + 'px )');
 
-        $('.p8').addClass('fade-in1').css('transform', 'translateY('+ scrollNum * -0.1 + 'px )');
+        $('.p8').addClass('fade-in1').css('transform', 'translateY('+ scrollNum * -0.15 + 'px )');
 
 
         // NEWS
@@ -69,7 +65,7 @@ $(function() {
 
 
 
-    if(scrollNum > 960){
+    if(scrollNum > 860){
             $('.pagetop').addClass('in');
         } else {
             $('.pagetop').removeClass('in');
@@ -83,9 +79,23 @@ $(function() {
     $('.umiear').on('inview', function() {
         // 要素がウィンドウの表示領域に現れたときに実行する処理
         $('.umiear').addClass('fade-in');
-        $('.umiear2').addClass('fade-in');
-        $('.new1 img').addClass('fade-in');
-        $('.new2 img').addClass('fade-in');
 });
+
+    $('.umiear').on('inview', function() {
+        // 要素がウィンドウの表示領域に現れたときに実行する処理
+        $('.umiear2').addClass('fade-in');
+});
+
+    $('.aoiroakairoPic').on('inview', function() {
+        // 要素がウィンドウの表示領域に現れたときに実行する処理
+        $('.aoiroakairoPic').addClass('fade-in');
+});
+
+    $('.aoiroakairoPic').on('inview', function() {
+        // 要素がウィンドウの表示領域に現れたときに実行する処理
+        $('.taiyouPic').addClass('fade-in');
+});
+
+
 
 });

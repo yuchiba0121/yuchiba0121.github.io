@@ -263,7 +263,7 @@ header .arrow1{
     left: 300px;
 
     opacity: 0;
-    transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
+    transition: 1s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 .umiear2{
@@ -349,7 +349,7 @@ header .arrow1{
 
 .p5Rotate{
     position: absolute;
-    top: 820px;
+    top: 420px;
     left: 138px;
     transform: rotate(-90deg );
     letter-spacing: 1.5px;
@@ -362,6 +362,11 @@ header .arrow1{
 
     opacity: 0;
     transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
+}
+
+.aoiroakairoPic{
+        opacity: 0;
+        transition: 1s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 .p6/*春の新作入荷しました*/{
@@ -384,10 +389,15 @@ header .arrow1{
     transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
+.taiyouPic{
+    opacity: 0;
+    transition: 1s cubic-bezier(0, 0, 0.35, 1.09);
+}
+
 
 .p7Rotate{
     position: absolute;
-    top: 804px;
+    top: 337px;
     left: 608px;
     transform: rotate(-90deg);
     letter-spacing: 1.5px;
@@ -422,7 +432,7 @@ header .arrow1{
     font-size: 56px;
     letter-spacing: 23px;
     position: absolute;
-    top: 480px;
+    top: 510px;
     left: 500px;
 }
 
@@ -430,7 +440,7 @@ header .arrow1{
     width: 48px;
     border-bottom: 1px #000 solid;
     position: absolute;
-    top: 567px;
+    top: 597px;
     left: 568px;
 }
 
