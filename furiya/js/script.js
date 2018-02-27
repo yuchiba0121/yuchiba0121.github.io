@@ -75,36 +75,28 @@ $(function() {
 
 // 写真・コピー出てくるタイミングをこちらで。
 
-    $('.umiear').on('inview', function() {
-        // 要素がウィンドウの表示領域に現れたときに実行する処理
-        $('.umiear').addClass('fade-in');
-});
-
-    $('.umiear2').on('inview', function() {
-        // 要素がウィンドウの表示領域に現れたときに実行する処理
-        $('.umiear2').addClass('fade-in');
-});
-
-//     $('#a1').on('inview', function() {
+//     $('.umiear').on('inview', function() {
 //         // 要素がウィンドウの表示領域に現れたときに実行する処理
-//         $('#a1').addClass('fade-in');
+//         $('.umiear').addClass('fade-in');
+// });
+//
+//     $('.umiear2').on('inview', function() {
+//         // 要素がウィンドウの表示領域に現れたときに実行する処理
+//         $('.umiear2').addClass('fade-in');
 // });
 
-//     $('.new2 img').on('inview', function() {
-//         // 要素がウィンドウの表示領域に現れたときに実行する処理
-//         $('.new2 img').addClass('fade-in');
-// });
+    $('#u1').on('inview', function() {
+        // 要素がウィンドウの表示領域に現れたときに実行する処理
+        $('.umiear').addClass('fade-in').addClass('fade-in-delay8');
+        $('.umiear2').addClass('fade-in').addClass('fade-in-delay4');
+    });
 
     $('#a1').on('inview', function() {
         // 要素がウィンドウの表示領域に現れたときに実行する処理
-        $('.aoiroakairoPic').addClass('fade-in').addClass('fade-in-delay4');
-        $('.taiyouPic').addClass('fade-in').addClass('fade-in-delay8');
+        $('.aoiroakairoPic').addClass('fade-in').addClass('fade-in-delay8');
+        $('.taiyouPic').addClass('fade-in').addClass('fade-in-delay4');
 });
 
-//     $('.p2Rotate p').on('inview', function() {
-//         // 要素がウィンドウの表示領域に現れたときに実行する処理
-//         $('p2Rotate p').addClass('fade-in');
-// });
 
 // PAGETOPに戻る
     $('.pagetop a').click(function(){
