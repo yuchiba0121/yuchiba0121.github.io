@@ -18,6 +18,12 @@ header .logo_furiya{
     z-index: 3;
 }
 
+/* .logo_furiya.in {
+    transform: translateY(0px);
+} */
+
+/* TOP */
+
 .top{
     width: 1270px;
     height: 654px;
@@ -82,7 +88,11 @@ header .logo_furiya{
     top: 0;
     left: 130px;
     z-index: 1;
+
+    transition: .8s cubic-bezier(0, 0, 0.35, 1.09);
 }
+
+/* YURAI */
 
 .yurai{
     width: 1270px;

@@ -100,11 +100,11 @@ $(function() {
 //         $('p2Rotate p').addClass('fade-in');
 // });
 
-});
-
 // PAGETOPに戻る
     $('pagetop').click(function(){
         $('body,html').animate({
         scrollTop: 0},slow);
         return false;
+});
+
 });
