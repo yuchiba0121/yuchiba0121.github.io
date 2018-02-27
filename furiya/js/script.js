@@ -172,6 +172,9 @@ $(function(){
     function startScene(){
         wLoader.addClass('fade-out');
         $('#displayNone').css('display','block');
+
+
+        $('.bg_blue')addClass('fade-in');
     }
 
 
