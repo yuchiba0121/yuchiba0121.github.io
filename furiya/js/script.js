@@ -171,6 +171,9 @@ $(function(){
 
     function startScene(){
         wLoader.addClass('fade-out');
+        setTimeout(function(){
+        wLoader.remove();
+       },1000);
         $('#displayNone').css('display','block');
 
 // TOP

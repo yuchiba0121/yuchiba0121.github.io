@@ -241,7 +241,7 @@ header .arrow1{
     position: absolute;
     top: 812px;
     left: 323px;
-    
+
     opacity: 0;
     /* animation-name: fade-in;
     animation-duration: 1.2s;
@@ -640,7 +640,7 @@ footer p{
 .loader {
   color: #ebebeb;
   font-size: 10px;
-  margin: 80px auto;
+  margin: 350px auto 0;
   position: relative;
   text-indent: -9999em;
   -webkit-transform: translateZ(0);
