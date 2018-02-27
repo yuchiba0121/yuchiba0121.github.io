@@ -106,3 +106,74 @@ $(function() {
 });
 
 });
+
+
+
+
+// LOADER
+
+var imgPath = 'img/';
+
+// 画像を保存する配列
+var manifest = [
+    {src: imgPath + 'logo_furiya.svg'},
+    {src: imgPath + 'bg_blue.png'},
+    {src: imgPath + 'red.png'},
+    {src: 'image2/hamanasan.png'},
+    {src: imgPath + 'allow.png'},
+    {src: imgPath + 'UMINOTAKARAMONO_R.png'},
+    {src: imgPath + 'UMINOTAKARAMONO_L.png'},
+    {src: 'image2/aoaka.png'},
+    {src: 'image2/taiyou.png'},
+    {src: imgPath + 'facebook.png'},
+    {src: imgPath + 'twitter.png'},
+    {src: imgPath + 'instagram.png'},
+];
+
+$(function(){
+
+    var windowWidth;
+    var windowHeight;
+
+    var wLoader = $('.wrap-loader');
+
+
+    // loadQueueクラス
+    var loadQueue = new createjs.LoadQueue();
+
+    // 同時に何ファイル読み込むか
+    loadQueue.setMaxConnections(6);
+
+    // 読み込み開始
+    loadQueue.loadManifest(manifest);
+
+    // 読み込み状況
+    loadQueue.addEventListener('progress',function(evt){
+        console.log(evt.progress);
+    });
+
+    // 使わないかも
+
+    // ひとつ読み込み終わったら
+    loadQueue.addEventListener("fileload", function(evt){
+        // console.log(evt.result);
+    });
+
+    // 使う
+
+    // 全部読み込み終わったら
+    loadQueue.addEventListener("complete", function(evt){
+        console.log('読み込み完了');
+        startScene();
+    });
+
+
+
+    function startScene(){
+        wLoader.addClass('fade-out');
+        $('.container').css('display','block').addClass('fade-in1');
+    }
+
+
+
+});
