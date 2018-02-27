@@ -215,6 +215,8 @@ header .p1{
 }
 
 header .p2{
+    opacity: 0;
+    transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
     /* animation-name: fade-in;
     animation-duration: 1.2s;
     animation-timing-function: ease-in;
@@ -222,9 +224,6 @@ header .p2{
     animation-iteration-count: 1;
     animation-direction: normal;
     animation-fill-mode: forwards; */
-
-    opacity: 0;
-    transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 .p2Rotate{
@@ -468,7 +467,7 @@ header .arrow1{
     width: 1270px;
     height: 430px;
     position: relative;
-    margin: 0 auto 700px;
+    margin: 0 auto 500px;
 }
 
 .news h2{
