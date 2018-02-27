@@ -21,15 +21,35 @@ body{
     animation-direction: normal;
     animation-fill-mode: forwards;
 }
-/* .fade-in1{
-    animation-name: fade-in;
-    animation-duration: 1s;
-    animation-timing-function: ease-in;
-    animation-delay: .8s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: forwards;
-} */
+
+/* アニメーション */
+.fade-in-delay2{
+    animation-delay: .2s
+}
+.fade-in-delay4{
+    animation-delay: .4s
+}
+.fade-in-delay6{
+    animation-delay: .6s
+}
+.fade-in-delay8{
+    animation-delay: .8s
+}
+.fade-in-delay10{
+    animation-delay: 1s
+}
+.fade-in-delay12{
+    animation-delay: 1.2s
+}
+.fade-in-delay14{
+    animation-delay: 1.4s
+}
+.fade-in-delay16{
+    animation-delay: 1.6s
+}
+.fade-in-delay18{
+    animation-delay: 1.8s
+}
 
 /* header */
 header{
@@ -363,12 +383,14 @@ header .arrow1{
     position: absolute;
     top: 691px;
     left: 285px;
+
+    opacity: 0;
     transition: .6s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
-.new1 img{
+/* .new1 img{
     opacity: 0;
-}
+} */
 
 .p6/*春の新作入荷しました*/{
     font-family: "fot-tsukubrdgothic-std";
