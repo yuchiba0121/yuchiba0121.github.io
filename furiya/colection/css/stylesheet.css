@@ -115,6 +115,9 @@ header .topBack{
 .chaku_umi img{
     width: 674px;
     height: 456px;
+}
+
+.chaku_umi{
     position: relative;
     top: -20px;
     left: 130px;
@@ -144,28 +147,40 @@ header .topBack{
     top: 330px;
     left: 715px;
     z-index: 3;
-
     opacity: 0;
 }
 
 .umi1 img{
     width: 109px;
     height: 225px;
+}
+
+.umi1{
     position: absolute;
     top: -51px;
     left: 981px;
 
+    opacity: 0;
     transition: .2s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 .umi2 img{
     width: 131px;
     height: 221px;
+}
+
+.umi2{
     position: absolute;
     top: 360px;
     left: 1075px;
 
+    opacity: 0;
     transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
+}
+
+.umino p{
+    font-size: 8px;
+    letter-spacing: 1.3px;
 }
 
 .umino{
@@ -175,8 +190,7 @@ header .topBack{
     top: 610px;
     left: 1083px;
 
-    font-size: 8px;
-    letter-spacing: 1.3px;
+    opacity: 0;
     transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
@@ -220,6 +234,9 @@ header .topBack{
 .chaku_outotu img{
     width: 393px;
     height: 588px;
+}
+
+.chaku_outotu{
     position: absolute;
     top: 30px;
     right: 130px;
@@ -245,6 +262,9 @@ header .topBack{
 .outotu1 img{
     width: 159px;
     height: 275px;
+}
+
+.outotu1{
     position: absolute;
     top: 60px;
     left: 352px;
@@ -255,6 +275,9 @@ header .topBack{
 .outotu2 img{
     width: 154px;
     height: 244px;
+}
+
+.outotu2{
     position: absolute;
     top: 575px;
     left: 100px;
@@ -266,6 +289,9 @@ header .topBack{
     font-size: 8px;
     letter-spacing: 1.3px;
     /* color: #8F9C9C; */
+}
+
+.o{
     position: absolute;
     top: 839px;
     left: 170px;
@@ -314,6 +340,9 @@ header .topBack{
 .chaku_taiyou img{
     width: 588px;
     height: 393px;
+}
+
+.chaku_taiyou{
     position: absolute;
     top: 32px;
     left: 228px;
@@ -337,10 +366,14 @@ header .topBack{
 .taiyou1 img{
     width: 165px;
     height: 391px;
+}
+
+.taiyou1{
     position: absolute;
     top: 60px;
     left: 978px;
 
+    opacity: 0;
     transition: .6s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
@@ -348,10 +381,14 @@ header .topBack{
     font-size: 8px;
     letter-spacing: 1.3px;
     /* color: #8F9C9C; */
+}
+
+.ty{
     position: absolute;
     top: 475px;
     left: 1050px;
 
+    opacity: 0;
     transition: .6s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
@@ -398,6 +435,9 @@ header .topBack{
 .chaku_aoaka img{
     width: 684px;
     height: 587px;
+}
+
+.chaku_aoaka{
     position: absolute;
     top: 38px;
     left: 520px;
@@ -422,6 +462,9 @@ header .topBack{
 .aoaka1 img{
     width: 165px;
     height: 279px;
+}
+
+.aoaka1{
     position: absolute;
     top: 720px;
     left: 30px;
@@ -432,6 +475,9 @@ header .topBack{
 .aoaka2 img{
     width: 198px;
     height: 278px;
+}
+
+.aoaka2{
     position: absolute;
     top: 1000px;
     left: 130px;
@@ -443,6 +489,9 @@ header .topBack{
     font-size: 8px;
     letter-spacing: 1.3px;
     /* color: #8F9C9C; */
+}
+
+.aoaka{
     position: absolute;
     top: 1015px;
     left: 78px;
@@ -492,6 +541,9 @@ header .topBack{
 .chaku_mizushibuki img{
     width: 783px;
     height: 520px;
+}
+
+.chaku_mizushiki{
     position: absolute;
     top: 32px;
     left: 8px;
@@ -519,6 +571,9 @@ header .topBack{
 .mizushibuki1 img{
     width: 197px;
     height: 297px;
+}
+
+.mizushibuki1{
     position: absolute;
     top: 610px;
     left: 1000px;
