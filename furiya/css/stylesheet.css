@@ -113,7 +113,7 @@ header .chakuyou{
     left: 576px;
     z-index: 1;
 
-    transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
+    transition: .6s cubic-bezier(0, 0, 0.35, 1.09);
     opacity: 0;
 
     animation-name: fade-in;
@@ -387,7 +387,7 @@ header .arrow1{
     position: absolute;
     top: 684px;
     left: 741px;
-    transition: .3s cubic-bezier(0, 0, 0.35, 1.09);
+    transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 .new2 img{
@@ -410,7 +410,7 @@ header .arrow1{
     left: 759px;
     letter-spacing: 1px;
 
-    transition: .3s cubic-bezier(0, 0, 0.35, 1.09);
+    transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 
