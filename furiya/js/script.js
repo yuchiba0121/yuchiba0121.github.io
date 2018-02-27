@@ -90,14 +90,15 @@ $(function() {
 //         $('#a1').addClass('fade-in');
 // });
 
-    $('.new2 img').on('inview', function() {
-        // 要素がウィンドウの表示領域に現れたときに実行する処理
-        $('.new2 img').addClass('fade-in');
-});
+//     $('.new2 img').on('inview', function() {
+//         // 要素がウィンドウの表示領域に現れたときに実行する処理
+//         $('.new2 img').addClass('fade-in');
+// });
 
-$('.new1').on('inview', function() {
+    $('#a1').on('inview', function() {
         // 要素がウィンドウの表示領域に現れたときに実行する処理
-        $('#a1').addClass('fade-in').addClass('fade-in-delay8');
+        $('.aoiroakairoPic').addClass('fade-in').addClass('fade-in-delay4');
+        $('.taiyouPic').addClass('fade-in').addClass('fade-in-delay8');
 });
 
 //     $('.p2Rotate p').on('inview', function() {
