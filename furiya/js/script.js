@@ -101,9 +101,9 @@ $(function() {
 // });
 
 // PAGETOPに戻る
-    $('pagetop').click(function(){
+    $('.pagetop a').click(function(){
         $('body,html').animate({
-        scrollTop: 0},slow);
+        scrollTop: 0},1000);
         return false;
 });
 
