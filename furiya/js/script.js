@@ -112,7 +112,7 @@ $(function() {
 
 // LOADER
 
-var imgPath = 'img/';
+var imgPath = 'image/';
 
 // 画像を保存する配列
 var manifest = [
