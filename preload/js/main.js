@@ -59,6 +59,8 @@ $(function(){
         console.log(evt.progress);
     });
 
+    // 使わないかも
+
     // ひとつ読み込み終わったら
     loadQueue.addEventListener("fileload", function(evt){
         // console.log(evt.result);
