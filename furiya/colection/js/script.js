@@ -12,7 +12,7 @@ $(function() {
 
         $('.umi2 img').css('transform', 'translateY('+ scrollNum * -0.3 + 'px )');
 
-        $('.unt').css('transform', 'translateY('+ scrollNum * -0.3 + 'px )');
+        $('.umino').css('transform', 'translateY('+ scrollNum * -0.3 + 'px )');
 
         // OUTOTU
         $('.outotu1 img').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');

@@ -77,7 +77,7 @@ header .logo{
     left: 745px;
 }
 
-.umi p{
+.sentens{
     font-family: "fot-tsukubrdgothic-std";
     font-size: 13px;
     line-height: 1.6;
@@ -109,16 +109,15 @@ header .logo{
     transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
-.unt p{
+.umino{
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    top: 610px;
+    left: 1083px;
+
     font-size: 8px;
     letter-spacing: 1.3px;
-    /* color: #8F9C9C; */
-    position: absolute;
-    top: 90px;
-    left: 1083px;
-}
-
-.unt{
     transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
