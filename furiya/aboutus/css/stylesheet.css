@@ -149,6 +149,15 @@ header .topBack{
     left: 198px;
 }
 
+.arrowSS img{
+    transition: 1s ;
+}
+
+.arrowSS img:hover{
+	opacity: 0.5 ;
+}
+
+
 .yurai .sentens3{
     font-size: 13px;
     letter-spacing: 2.5px;
