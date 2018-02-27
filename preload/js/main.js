@@ -66,6 +66,8 @@ $(function(){
         // console.log(evt.result);
     });
 
+    // 使う
+
     // 全部読み込み終わったら
     loadQueue.addEventListener("complete", function(evt){
         console.log('読み込み完了');
