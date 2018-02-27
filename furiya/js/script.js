@@ -142,7 +142,7 @@ $(function(){
     var loadQueue = new createjs.LoadQueue();
 
     // 同時に何ファイル読み込むか
-    loadQueue.setMaxConnections(6);
+    loadQueue.setMaxConnections(12);
 
     // 読み込み開始
     loadQueue.loadManifest(manifest);
@@ -156,7 +156,7 @@ $(function(){
 
     // ひとつ読み込み終わったら
     loadQueue.addEventListener("fileload", function(evt){
-        // console.log(evt.result);
+        console.log(evt.result);
     });
 
     // 使う
