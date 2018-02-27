@@ -385,7 +385,7 @@ header .arrow1{
     width: 290px;
     height: 353px;
     position: absolute;
-    top: 624px;
+    top: 684px;
     left: 741px;
     transition: .3s cubic-bezier(0, 0, 0.35, 1.09);
 }
@@ -406,7 +406,7 @@ header .arrow1{
     font-family: "fot-tsukubrdgothic-std";
     font-size: 13px;
     position: absolute;
-    top: 1008px;
+    top: 1068px;
     left: 759px;
     letter-spacing: 1px;
 
