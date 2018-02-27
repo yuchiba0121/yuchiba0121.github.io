@@ -45,11 +45,26 @@ body{
 .fade-in-delay14{
     animation-delay: 1.4s
 }
+.fade-in-delay15{
+    animation-delay: 1.5s
+}
 .fade-in-delay16{
     animation-delay: 1.6s
 }
 .fade-in-delay18{
     animation-delay: 1.8s
+}
+.fade-in-delay20{
+    animation-delay: 2.0s
+}
+.fade-in-delay25{
+    animation-delay: 2.5s
+}
+.fade-in-delay30{
+    animation-delay: 3.0s
+}
+.fade-in-delay32{
+    animation-delay: 3.2s
 }
 
 /* header */
@@ -69,14 +84,13 @@ header h1{
 
     transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
     opacity: 0;
-
-    animation-name: fade-in;
+    /* animation-name: fade-in;
     animation-duration: 1.2s;
     animation-timing-function: ease-in;
     animation-delay: 2.5s;
     animation-iteration-count: 1;
     animation-direction: normal;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards; */
 }
 
 /* header内 2018 SPRING SUMMER */
@@ -94,13 +108,13 @@ header h2{
     transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
     opacity: 0;
 
-    animation-name: fade-in;
+    /* animation-name: fade-in;
     animation-duration: 1.2s;
     animation-timing-function: ease-in;
     animation-delay: 2.5s;
     animation-iteration-count: 1;
     animation-direction: normal;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards; */
 }
 
 .white{
@@ -117,18 +131,18 @@ header .shape1{
     transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
     opacity: 0;
 
-    animation-name: fade-in;
+    /* animation-name: fade-in;
     animation-duration: 1.2s;
     animation-timing-function: ease-in;
     animation-delay: 3s;
     animation-iteration-count: 1;
     animation-direction: normal;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards; */
 }
 
 header .chakuyou{
-    width: 100%;
-    height: auto;
+    width: 367px;
+    height: 448px;
     position: absolute;
     top: 233px;
     left: 576px;

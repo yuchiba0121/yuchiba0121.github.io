@@ -93,7 +93,7 @@ $(function() {
 
     $('#a1').on('inview', function() {
         // 要素がウィンドウの表示領域に現れたときに実行する処理
-        $('.aoiroakairoPic').addClass('fade-in').addClass('fade-in-delay8');
+        $('.aoiroakairoPic').addClass('fade-in').addClass('fade-in-delay2');
         $('.taiyouPic').addClass('fade-in').addClass('fade-in-delay4');
 });
 
@@ -174,15 +174,16 @@ $(function(){
         $('#displayNone').css('display','block');
 
 // TOP
-        $('h1').addClass('fade-in');
-        $('header h2').addClass('fade-in');
-        $('.shape1').addClass('fade-in');
-        $('.bg_blue').addClass('fade-in');
-        $('.bg_red').addClass('fade-in');
-        $('.chakuyou').addClass('fade-in');
-        $('.p1').addClass('fade-in');
-        $('.p2').addClass('fade-in');
-        $('.arrow1').addClass('fade-in');
+        $('h1').addClass('fade-in').addClass('fade-in-delay25');
+        $('header h2').addClass('fade-in').addClass('fade-in-delay25');
+        $('.shape1').addClass('fade-in').addClass('fade-in-delay30');
+        $('.bg_blue').addClass('fade-in').addClass('fade-in-delay10');
+        $('.bg_red').addClass('fade-in').addClass('fade-in-delay15');
+        $('.chakuyou').addClass('fade-in').addClass('fade-in-delay20');
+        $('.p1').addClass('fade-in').addClass('fade-in-delay30');
+        $('.p2').addClass('fade-in').addClass('fade-in-delay32');
+        $('.arrow1').addClass('fade-in').addClass('fade-in-delay30');
+        $('.p2Rotate').addClass('fade-in').addClass('fade-in-delay30');
     }
 
 
