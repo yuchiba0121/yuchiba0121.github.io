@@ -393,10 +393,11 @@ header .arrow1{
 
 .p5Rotate{
     position: absolute;
-    top: 262px;
+    top: 382px;
     left: 138px;
     transform: rotate(-90deg );
     letter-spacing: 1.5px;
+    transition: .2s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 #a1{
@@ -443,10 +444,11 @@ header .arrow1{
 
 .p7Rotate{
     position: absolute;
-    top: 217px;
+    top: 377px;
     left: 608px;
     transform: rotate(-90deg);
     letter-spacing: 1.5px;
+    transition: .2s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 .p8/*春の新作入荷しました*/{

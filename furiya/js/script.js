@@ -47,11 +47,11 @@ $(function() {
 
         $('.taiyouPic').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
 
-        // $('.p5').css('transform', 'translateX('+ scrollNum * +0.2 + 'px )');
+        $('.p5').css('transform', 'translateX('+ scrollNum * +0.1 + 'px )');
 
         $('.p6').addClass('fade-in').css('transform', 'translateY('+ scrollNum * -0.25 + 'px )');
 
-        // $('.p7').css('transform', 'translateX('+ scrollNum * +0.2 + 'px )');
+        $('.p7').css('transform', 'translateX('+ scrollNum * +0.1 + 'px )');
 
         $('.p8').addClass('fade-in').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
 
