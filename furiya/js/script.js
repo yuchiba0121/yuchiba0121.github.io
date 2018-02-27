@@ -116,7 +116,7 @@ var imgPath = 'image/';
 
 // 画像を保存する配列
 var manifest = [
-    {src: 'image/logo_furiya.svg'},
+    {src: imgPath + 'logo_furiya.svg'},
     {src: imgPath + 'bg_blue.png'},
     {src: imgPath + 'red.png'},
     {src: 'image2/hamanasan.png'},
