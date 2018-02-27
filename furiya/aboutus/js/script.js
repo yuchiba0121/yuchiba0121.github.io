@@ -9,6 +9,15 @@ $(function() {
         {
         // TOP
         $('.top img').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
+
+        $('.coral').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
+
+        $('.sunstone').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
+
+        $('.labra').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
+
+        $('.turquoise').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
         }
+
     })
 });
