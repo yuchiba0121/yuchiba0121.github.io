@@ -174,7 +174,7 @@ $(function(){
         $('#displayNone').css('display','block');
 
 
-        $('.bg_blue')addClass('fade-in');
+        $('.bg_blue').addClass('fade-in');
     }
 
 
