@@ -167,7 +167,7 @@ header .logo{
     z-index: 1;
 }
 
-.outotu p{
+.outotu .sentens2{
     font-family: "fot-tsukubrdgothic-std";
     font-size: 13px;
     line-height: 1.6;
@@ -244,7 +244,7 @@ header .logo{
     left: 228px;
 }
 
-.taiyou p{
+.sentens3{
     font-family: "fot-tsukubrdgothic-std";
     font-size: 13px;
     line-height: 1.6;
@@ -313,7 +313,7 @@ header .logo{
     left: 520px;
 }
 
-.aoiroakairo p{
+.aoiroakairo .sentens4{
     font-family: "fot-tsukubrdgothic-std";
     font-size: 13px;
     line-height: 1.6;
@@ -392,7 +392,7 @@ header .logo{
     left: 8px;
 }
 
-.mizushibuki p{
+.mizushibuki .sentens5{
     font-family: "fot-tsukubrdgothic-std";
     font-size: 13px;
     line-height: 1.6;
@@ -401,8 +401,6 @@ header .logo{
     position: absolute;
     top: 515px;
     left: 674px;
-
-    transition: .5s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 .white{
@@ -426,6 +424,8 @@ header .logo{
     position: absolute;
     top: 875px;
     left: 1117px;
+
+    transition: .5s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 /* arrow */
