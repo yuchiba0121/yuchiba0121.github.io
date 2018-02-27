@@ -409,12 +409,14 @@ header .arrow1{
     position: absolute;
     top: 684px;
     left: 741px;
+
+    opacity: 0;
     transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
 }
-
+/* 
 .new2 img{
     opacity: 0;
-}
+} */
 
 .p7Rotate{
     position: absolute;

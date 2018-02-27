@@ -43,9 +43,9 @@ $(function() {
         // NEWARRIVAL
         $('.shape3').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
 
-        $('.aoiroakairoPic').addClass('fade-in').css('transform', 'translateY('+ scrollNum * -0.25 + 'px )');
+        $('.aoiroakairoPic').css('transform', 'translateY('+ scrollNum * -0.25 + 'px )');
 
-        $('.taiyouPic').addClass('fade-in').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
+        $('.taiyouPic').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
 
         // $('.p5').css('transform', 'translateX('+ scrollNum * +0.2 + 'px )');
 
