@@ -156,7 +156,7 @@ $(function(){
 
     // ひとつ読み込み終わったら
     loadQueue.addEventListener("fileload", function(evt){
-        console.log(evt.result);
+        // console.log(evt.result);
     });
 
     // 使う
@@ -171,7 +171,7 @@ $(function(){
 
     function startScene(){
         wLoader.addClass('fade-out');
-        $('.container').css('display','block').addClass('fade-in1');
+        $('#displayNone').css('display','block');
     }
 
 

@@ -689,9 +689,5 @@ footer p{
 
 
 #displayNone{
-    width: 100%;
-    height: 2000px;
-    background-color: #DDD;
-    opacity: 0;
     display: none; /* ローディング中に隠しておく */
 }
