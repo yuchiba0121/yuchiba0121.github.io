@@ -607,7 +607,7 @@ footer p{
 .wrap-loader {
   width: 100%;
   height: 100%;
-  background-color: #CAEEFF;
+  background-color: #FFF;
   position: absolute;
   z-index: 100;
 }
@@ -691,7 +691,7 @@ footer p{
 #displayNone{
     width: 100%;
     height: 2000px;
-    background-color: #000;
+    background-color: #DDD;
     opacity: 0;
     display: none; /* ローディング中に隠しておく */
 }
