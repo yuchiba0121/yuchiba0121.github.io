@@ -173,8 +173,16 @@ $(function(){
         wLoader.addClass('fade-out');
         $('#displayNone').css('display','block');
 
-
+// TOP
+        $('h1').addClass('fade-in');
+        $('header h2').addClass('fade-in');
+        $('.shape1').addClass('fade-in');
         $('.bg_blue').addClass('fade-in');
+        $('.bg_red').addClass('fade-in');
+        $('.chakuyou').addClass('fade-in');
+        $('.p1').addClass('fade-in');
+        $('.p2').addClass('fade-in');
+        $('.arrow1').addClass('fade-in');
     }
 
 
