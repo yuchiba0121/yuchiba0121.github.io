@@ -38,6 +38,15 @@ header .topBack{
     font-size: 56px;
     letter-spacing: 2.2px;
     z-index: 2;
+
+    opacity: 0;
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 1.5s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
 }
 
 .shape1{
@@ -46,12 +55,30 @@ header .topBack{
     position: absolute;
     top: 190px;
     left: 813px;
+
+    opacity: 0;
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 1.5s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
 }
 
 .top p{
     font-family: "fot-tsukubrdgothic-std";
     font-size: 13px;
     line-height: 1.6;
+
+    opacity: 0;
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
 }
 
 .top .sentens1{
@@ -61,6 +88,15 @@ header .topBack{
     top: 240px;
     left: 722px;
     z-index: 2;
+
+    opacity: 0;
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 2.0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
 }
 
 .top .sentens2{
@@ -70,6 +106,15 @@ header .topBack{
     top: 350px;
     left: 722px;
     z-index: 2;
+
+    opacity: 0;
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 2.5s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
 }
 
 .top .sentens3{
@@ -79,17 +124,38 @@ header .topBack{
     top: 420px;
     left: 722px;
     z-index: 2;
+
+    opacity: 0;
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 3.0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
 }
 
 .top img{
     width: 654px;
     height: 654px;
+}
+
+.top .topPic{
     position: absolute;
     top: 0;
     left: 130px;
     z-index: 1;
 
+    opacity: 0;
     transition: .8s cubic-bezier(0, 0, 0.35, 1.09);
+
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
 }
 
 /* YURAI */
@@ -304,7 +370,6 @@ header .topBack{
 
 
 
-
 @keyframes fade-in {
     0%{
         opacity: 0;
@@ -325,15 +390,15 @@ header .topBack{
 }
 
 /* アニメーション */
+.fade-in-delay10{
+    animation-delay: 1.0s
+}
+.fade-in-delay15{
+    animation-delay: 1.5s
+}
 .fade-in-delay20{
     animation-delay: 2.0s
 }
 .fade-in-delay25{
     animation-delay: 2.5s
-}
-.fade-in-delay30{
-    animation-delay: 3.0s
-}
-.fade-in-delay35{
-    animation-delay: 3.5s
-}
+} */

@@ -21,15 +21,15 @@ $(function() {
 
 
 
-    // 写真・コピー出てくるタイミングをこちらで。
-    $('#top').on('inview', function() {
-        $('h1').addClass('fade-in').addClass('fade-in-delay25');
-        $('.shape1').addClass('fade-in').addClass('fade-in-delay25');
-        $('.sentens1').addClass('fade-in').addClass('fade-in-delay30');
-        $('.sentens2').addClass('fade-in').addClass('fade-in-delay30');
-        $('.sentens3').addClass('fade-in').addClass('fade-in-delay35');
-        $('.topPic').addClass('fade-in').addClass('fade-in-delay20');
-    });
+    // // 写真・コピー出てくるタイミングをこちらで。
+    // $('#top').on('inview', function() {
+    //     $('h1').addClass('fade-in').addClass('fade-in-delay15');
+    //     $('.shape1').addClass('fade-in').addClass('fade-in-delay15');
+    //     $('.sentens1').addClass('fade-in').addClass('fade-in-delay20');
+    //     $('.sentens2').addClass('fade-in').addClass('fade-in-delay20');
+    //     $('.sentens3').addClass('fade-in').addClass('fade-in-delay25');
+    //     $('.topPic').addClass('fade-in').addClass('fade-in-delay10');
+    // });
 });
 
 });
