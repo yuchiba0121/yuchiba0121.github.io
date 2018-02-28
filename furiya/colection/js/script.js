@@ -8,35 +8,35 @@ $(function() {
     console.log(scrollNum);
         {
         // UMINOTAKARAMONO
-        $('.umi1 img').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
+        $('.umi1').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
 
-        $('.umi2 img').css('transform', 'translateY('+ scrollNum * -0.3 + 'px )');
+        $('.umi2').css('transform', 'translateY('+ scrollNum * -0.3 + 'px )');
 
         $('.umino').css('transform', 'translateY('+ scrollNum * -0.3 + 'px )');
 
         // OUTOTU
-        $('.outotu1 img').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
+        $('.outotu1').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
 
-        $('.outotu2 img').css('transform', 'translateY('+ scrollNum * -0.3 + 'px )');
+        $('.outotu2').css('transform', 'translateY('+ scrollNum * -0.3 + 'px )');
 
-        $('.o p').css('transform', 'translateY('+ scrollNum * -0.3 + 'px )');
+        $('.o').css('transform', 'translateY('+ scrollNum * -0.3 + 'px )');
 
         // TAIYOU
-        $('.taiyou1 img').css('transform', 'translateY('+ scrollNum * -0.1 + 'px )');
+        $('.taiyou1').css('transform', 'translateY('+ scrollNum * -0.1 + 'px )');
 
-        $('.ty p').css('transform', 'translateY('+ scrollNum * -0.1 + 'px )');
+        $('.ty').css('transform', 'translateY('+ scrollNum * -0.1 + 'px )');
 
         //AOIROAKAIRO
-        $('.aoaka1 img').css('transform', 'translateY('+ scrollNum * -0.3 + 'px )');
+        $('.aoaka1').css('transform', 'translateY('+ scrollNum * -0.3 + 'px )');
 
-        $('.aoaka2 img').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
+        $('.aoaka2').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
 
-        $('.aoaka p').css('transform', 'translateY('+ scrollNum * -0.3 + 'px )');
+        $('.aoaka').css('transform', 'translateY('+ scrollNum * -0.3 + 'px )');
 
         // MIZUSHIBUKI
-        $('.mizushibuki1 img').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
+        $('.mizushibuki1').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
 
-        $('.msbk p').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
+        $('.msbk').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
 
 
 
