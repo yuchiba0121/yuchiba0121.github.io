@@ -545,7 +545,7 @@ header .topBack{
 
 .chaku_mizushiki{
     position: absolute;
-    top: 32px;
+    top: -50px;
     left: 8px;
 
     opacity: 0;
@@ -578,7 +578,6 @@ header .topBack{
     top: 610px;
     left: 1000px;
 
-    opacity: 0;
     transition: .5s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
@@ -586,6 +585,9 @@ header .topBack{
     font-size: 8px;
     letter-spacing: 1.3px;
     /* color: #8F9C9C; */
+}
+
+.msbk{
     position: absolute;
     top: 875px;
     left: 1117px;
