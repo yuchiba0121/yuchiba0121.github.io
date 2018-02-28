@@ -407,3 +407,12 @@ header .topBack{
 .fade-in-delay10{
     animation-delay: 1.0s
 }
+.fade-in-delay14{
+    animation-delay: 1.4s
+}
+.fade-in-delay18{
+    animation-delay: 1.8s
+}
+.fade-in-delay22{
+    animation-delay: 2.2s
+}
