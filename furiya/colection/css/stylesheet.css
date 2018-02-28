@@ -373,7 +373,6 @@ header .topBack{
     top: 60px;
     left: 978px;
 
-    opacity: 0;
     transition: .6s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
@@ -388,7 +387,6 @@ header .topBack{
     top: 475px;
     left: 1050px;
 
-    opacity: 0;
     transition: .6s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
