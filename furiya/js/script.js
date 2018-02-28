@@ -75,16 +75,6 @@ $(function() {
 
 // 写真・コピー出てくるタイミングをこちらで。
 
-//     $('.umiear').on('inview', function() {
-//         // 要素がウィンドウの表示領域に現れたときに実行する処理
-//         $('.umiear').addClass('fade-in');
-// });
-//
-//     $('.umiear2').on('inview', function() {
-//         // 要素がウィンドウの表示領域に現れたときに実行する処理
-//         $('.umiear2').addClass('fade-in');
-// });
-
     $('#u1').on('inview', function() {
         // 要素がウィンドウの表示領域に現れたときに実行する処理
         $('.umiear').addClass('fade-in').addClass('fade-in-delay8');
@@ -95,7 +85,7 @@ $(function() {
         // 要素がウィンドウの表示領域に現れたときに実行する処理
         $('.aoiroakairoPic').addClass('fade-in').addClass('fade-in-delay2');
         $('.taiyouPic').addClass('fade-in').addClass('fade-in-delay4');
-});
+    });
 
 
 // PAGETOPに戻る
