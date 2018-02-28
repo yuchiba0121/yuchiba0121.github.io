@@ -21,4 +21,13 @@ $(function() {
 
 });
 
+////////////////////
+$('#stone_zinwari').on('inview', function() {
+    // 要素がウィンドウの表示領域に現れたときに実行する処理
+    $('.coral').addClass('fade-in').addClass('fade-in-delay10');
+    $('.sunstone').addClass('fade-in').addClass('fade-in-delay10');
+    $('.labra').addClass('fade-in').addClass('fade-in-delay10');
+    $('.turquoise').addClass('fade-in').addClass('fade-in-delay10');
+    });
+
 });
