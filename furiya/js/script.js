@@ -62,8 +62,6 @@ $(function() {
     }
 
 
-
-
     if(scrollNum > 860){
             $('.pagetop').addClass('in');
         } else {
@@ -71,6 +69,10 @@ $(function() {
         }
 
     });
+
+
+
+
 
 
 // 写真・コピー出てくるタイミングをこちらで。

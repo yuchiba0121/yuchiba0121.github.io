@@ -51,15 +51,6 @@ $(function() {
     }
     });
 
-    // PAGETOPに戻る
-    $('.pagetop a').click(function(){
-        $('body,html').animate({
-        scrollTop: 0},1000);
-        return false;
-    });
-
-    });
-
 
     // 写真・コピー出てくるタイミングをこちらで。
     $('#umi_zinwari').on('inview', function() {
@@ -109,4 +100,11 @@ $(function() {
         $('.sentens5').addClass('fade-in').addClass('fade-in-delay12');
         });
 
-});
+        // PAGETOPに戻る
+            $('.pagetop a').click(function(){
+                $('body,html').animate({
+                scrollTop: 0},1000);
+                return false;
+        });
+
+        });
