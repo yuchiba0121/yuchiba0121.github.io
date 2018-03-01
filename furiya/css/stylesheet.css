@@ -480,6 +480,8 @@ header .arrow1{
     position: absolute;
     top: 510px;
     left: 500px;
+
+    transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 .shape4{
@@ -488,6 +490,8 @@ header .arrow1{
     position: absolute;
     top: 597px;
     left: 568px;
+
+    transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
 .news p{
