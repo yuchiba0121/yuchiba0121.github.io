@@ -280,6 +280,7 @@ header .arrow1{
     left: 630px;
 
     transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
+    z-index: 2;
 }
 
 .shape2{
@@ -290,6 +291,7 @@ header .arrow1{
     left: 770px;
 
     transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
+    z-index: 2;
 }
 
 #u1{
@@ -308,6 +310,7 @@ header .arrow1{
 
     opacity: 0;
     transition: 1s cubic-bezier(0, 0, 0.35, 1.09);
+    z-index: 2;
 }
 
 .umiear2{
@@ -319,6 +322,17 @@ header .arrow1{
 
     opacity: 0;
     transition: 1.5s cubic-bezier(0, 0, 0.35, 1.09);
+    z-index: 2;
+}
+
+.square1{
+    width: 741px;
+    height: 480px;
+    position: absolute;
+    top: 1286px;
+    left: 0px;
+    z-index: 1;
+    background-color: rgba(169, 217, 212, 0.5);
 }
 
 .p3{
@@ -330,6 +344,7 @@ header .arrow1{
     position: absolute;
     top: 240px;
     left: 770px;
+    z-index: 2;
 }
 
 .p4{
@@ -343,6 +358,7 @@ header .arrow1{
     left: 190px;
     transform: rotate(-90deg );
     letter-spacing: 1.5px;
+    z-index: 2;
 }
 
 .arrow2{
@@ -429,6 +445,7 @@ header .arrow1{
     letter-spacing: 1px;
 
     transition: .6s cubic-bezier(0, 0, 0.35, 1.09);
+    z-index: 2;
 }
 
 .taiyouPic{
@@ -440,6 +457,7 @@ header .arrow1{
 
     opacity: 0;
     transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
+    z-index: 2;
 }
 
 .p7Rotate{
@@ -449,6 +467,7 @@ header .arrow1{
     transform: rotate(-90deg);
     letter-spacing: 1.5px;
     transition: .2s cubic-bezier(0, 0, 0.35, 1.09);
+    z-index: 2;
 }
 
 .p8/*春の新作入荷しました*/{
@@ -460,8 +479,18 @@ header .arrow1{
     letter-spacing: 1px;
 
     transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
+    z-index: 2;
 }
 
+.square3{
+    width: 640px;
+    height: 540px;
+    position: absolute;
+    top: 2306px;
+    right: 0px;
+    z-index: 1;
+    background-color: rgba(169, 217, 212, 0.5);
+}
 
 /* NEWS */
 
@@ -585,6 +614,7 @@ footer{
     height: 265px;
     position: relative;
     margin: 0 auto 90px;
+    z-index: 2;
 }
 
 footer ul{
@@ -618,6 +648,34 @@ footer p{
     text-align: center;
     margin-top: 100px;
 }
+
+.bottom{
+    position: relative;
+    margin: -440px auto 0px;
+    z-index: 1;
+}
+
+.square2{
+    width: 100%;
+    height: 440px;
+    position: absolute;
+    background-color: rgba(169, 217, 212, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
