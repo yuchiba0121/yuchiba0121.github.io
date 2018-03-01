@@ -3,10 +3,10 @@ $(function() {
     //スクロールイベント
     $(window).scroll(function(){
 
-    // スクロール値を保存
-    var scrollNum = $(this).scrollTop();
-    console.log(scrollNum);
-        {
+        // スクロール値を保存
+        var scrollNum = $(this).scrollTop();
+        console.log(scrollNum);
+
         // UMINOTAKARAMONO
         $('.umi1').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
 
@@ -40,15 +40,14 @@ $(function() {
 
 
 
-        }
 
     // PAGETOP
 
         if(scrollNum > 860){
-        $('.pagetop').addClass('in');
-    } else {
-        $('.pagetop').removeClass('in');
-    }
+            $('.pagetop').addClass('in');
+        } else {
+            $('.pagetop').removeClass('in');
+        }
     });
 
 
