@@ -593,13 +593,35 @@ header .topBack{
     transition: .5s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
-/* arrow */
-/* .arrow{
-    width: 1270px;
-    height: 190px;
-    margin: 0 auto 111px;
-    position: relative;
-} */
+/* PAGE TOP */
+.pagetop p{
+    width: 118px;
+    height: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    transform: rotate(-90deg );
+}
+
+.pagetop {
+    position: fixed;
+    right: 50%;
+    margin-right: -715px;
+    bottom: 100px;
+    transform: translateY(220px);
+    letter-spacing: 8px;
+    transition: all 1s;
+}
+
+.pagetop.in {
+    transform: translateY(0px);
+}
+
+.pagetop a{
+        text-decoration: none;
+        color: #000;
+}
+
+/* ARROW */
 
 .arrow a{
     width: 50px;
