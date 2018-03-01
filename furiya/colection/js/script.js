@@ -42,7 +42,24 @@ $(function() {
 
         }
 
+    // PAGETOP
+
+        if(scrollNum > 860){
+        $('.pagetop').addClass('in');
+    } else {
+        $('.pagetop').removeClass('in');
+    }
     });
+
+    // PAGETOPに戻る
+    $('.pagetop a').click(function(){
+        $('body,html').animate({
+        scrollTop: 0},1000);
+        return false;
+    });
+
+    });
+
 
     // 写真・コピー出てくるタイミングをこちらで。
     $('#umi_zinwari').on('inview', function() {
