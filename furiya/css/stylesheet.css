@@ -372,6 +372,8 @@ header .arrow1{
     height: 520px;
     position: absolute;
     top: 1286px;
+
+    transition: 1.5s cubic-bezier(0.09, 0.91, 0.47, 1.02);
 }
 
 .square1{
@@ -495,6 +497,7 @@ header .arrow1{
     height: 640px;
     position: absolute;
     top: 2306px;
+    transition: 1.5s cubic-bezier(0.09, 0.91, 0.47, 1.02);
 }
 
 .square2{

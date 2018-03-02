@@ -37,6 +37,8 @@ $(function() {
 
         $('.p4').css('transform', 'translateX('+ scrollNum * +0.1 + 'px )');
 
+        $('#bg1').css('transform', 'translateY('+ scrollNum * -1.0 + 'px )');
+
 
     // } else if (scrollNum > 1600 && scrollNum <= 2800 ){
 
@@ -54,6 +56,8 @@ $(function() {
         $('.p7').css('transform', 'translateX('+ scrollNum * +0.1 + 'px )');
 
         $('.p8').addClass('fade-in').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
+
+        $('#bg2').css('transform', 'translateY('+ scrollNum * -1.0 + 'px )');
 
 
         // NEWS
