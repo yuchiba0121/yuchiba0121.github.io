@@ -97,17 +97,18 @@ header .topBack{
     z-index: 3;
 }
 
-header p{
+header h1{
     width: 433px;
     height: 135px;
+    position: absolute;
+    top: 100px;
+    margin: 0 auto 0;
+}
+
+header p{
     font-size: 56px;
     letter-spacing: 23px;
     line-height: 1.3;
-    position: absolute;
-    top: 500px;
-    left: 630px;
-
-    margin: 0 auto;
 }
 
 /* UMINORAKAEAMONO */
