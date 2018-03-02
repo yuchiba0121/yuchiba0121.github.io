@@ -14,6 +14,8 @@ $(function() {
 
         $('.umino').css('transform', 'translateY('+ scrollNum * -0.3 + 'px )');
 
+        $('#bg1').css('transform', 'translateY('+ scrollNum * -0.1 + 'px )');
+
         // OUTOTU
         $('.outotu1').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
 
@@ -21,10 +23,14 @@ $(function() {
 
         $('.o').css('transform', 'translateY('+ scrollNum * -0.3 + 'px )');
 
+        $('#bg2').css('transform', 'translateY('+ scrollNum * -0.1 + 'px )');
+
         // TAIYOU
         $('.taiyou1').css('transform', 'translateY('+ scrollNum * -0.1 + 'px )');
 
         $('.ty').css('transform', 'translateY('+ scrollNum * -0.1 + 'px )');
+
+        $('#bg3').css('transform', 'translateY('+ scrollNum * -0.1 + 'px )');
 
         //AOIROAKAIRO
         $('.aoaka1').css('transform', 'translateY('+ scrollNum * -0.3 + 'px )');
@@ -33,10 +39,14 @@ $(function() {
 
         $('.aoaka').css('transform', 'translateY('+ scrollNum * -0.3 + 'px )');
 
+        $('#bg4').css('transform', 'translateY('+ scrollNum * -0.1 + 'px )');
+
         // MIZUSHIBUKI
         $('.mizushibuki1').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
 
         $('.msbk').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
+
+        $('#bg5').css('transform', 'translateY('+ scrollNum * -0.1 + 'px )');
 
 
 
