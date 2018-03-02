@@ -216,7 +216,7 @@ header .topBack{
     left: 0px;
     z-index: 1;
 
-    transition: 1.5s cubic-bezier(0, 0, 0.35, 1.09);
+    transition: 1.5s cubic-bezier(0.09, 0.91, 0.47, 1.02);
 }
 
 .square1{
@@ -339,16 +339,16 @@ header .topBack{
     width: 100%;
     height: 547px;
     position: absolute;
-    top: 1086px;
+    top: 1796px;
     right: 0px;
     z-index: 1;
 
-    transition: 1.5s cubic-bezier(0, 0, 0.35, 1.09);
+    transition: 1.5s cubic-bezier(0.09, 0.91, 0.47, 1.02);
 }
 
 .square2{
     width: 35%;
-    height: 705px;
+    height: 495px;
     position: absolute;
     right: 0px;
     z-index: 1;
@@ -458,7 +458,7 @@ header .topBack{
     left: 0px;
     z-index: 1;
 
-    transition: 1.5s cubic-bezier(0, 0, 0.35, 1.09);
+    transition: 1.5s cubic-bezier(0.09, 0.91, 0.47, 1.02);
 }
 
 .square3{
@@ -587,7 +587,7 @@ header .topBack{
     right: 0px;
     z-index: 1;
 
-    transition: 1.5s cubic-bezier(0, 0, 0.35, 1.09);
+    transition: 1.5s cubic-bezier(0.09, 0.91, 0.47, 1.02);
 }
 
 .square4{
@@ -705,7 +705,7 @@ header .topBack{
     left: 0;
     z-index: 1;
 
-    transition: 1.5s cubic-bezier(0, 0, 0.35, 1.09);
+    transition: 1.5s cubic-bezier(0.09, 0.91, 0.47, 1.02);
 }
 
 .square5{

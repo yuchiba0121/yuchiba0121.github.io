@@ -23,7 +23,7 @@ $(function() {
 
         $('.o').css('transform', 'translateY('+ scrollNum * -0.3 + 'px )');
 
-        $('#bg2').css('transform', 'translateY('+ scrollNum * -0.1 + 'px )');
+        $('#bg2').css('transform', 'translateY('+ scrollNum * -1.0 + 'px )');
 
         // TAIYOU
         $('.taiyou1').css('transform', 'translateY('+ scrollNum * -0.1 + 'px )');
