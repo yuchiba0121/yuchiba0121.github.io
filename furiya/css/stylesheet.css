@@ -357,6 +357,7 @@ header .arrow1{
     position: absolute;
     top: 465px;
     left: 770px;
+    z-index: 2;
 }
 
 .arrow2 img{
@@ -372,6 +373,7 @@ header .arrow1{
     height: 520px;
     position: absolute;
     top: 2436px;
+    z-index: 1;
 
     transition: 1.5s cubic-bezier(0.09, 0.91, 0.47, 1.02);
 }
@@ -382,7 +384,6 @@ header .arrow1{
     position: absolute;
     top: 0px;
     left: 0px;
-    z-index: 1;
     background-color: rgba(169, 217, 212, 0.5);
     opacity: 0;
 }
