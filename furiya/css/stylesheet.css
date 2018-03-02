@@ -325,16 +325,6 @@ header .arrow1{
     z-index: 2;
 }
 
-.square1{
-    width: 741px;
-    height: 480px;
-    position: absolute;
-    top: 1286px;
-    left: 0px;
-    z-index: 1;
-    background-color: rgba(169, 217, 212, 0.5);
-}
-
 .p3{
     font-family: "fot-tsukubrdgothic-std";
     font-size: 13px;
@@ -375,6 +365,25 @@ header .arrow1{
 
 .arrow2 img:hover{
 	opacity: 0.5 ;
+}
+
+#bg1{
+    width: 100%;
+    height: 520px;
+    position: absolute;
+    top: 1286px;
+    /* background-color: green; */
+    opacity: 0;
+}
+
+.square1{
+    width: 60%;
+    height: 480px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background-color: rgba(169, 217, 212, 0.5);
 }
 
 
@@ -597,6 +606,7 @@ header .arrow1{
     transform: translateY(220px);
     letter-spacing: 8px;
     transition: all 1s;
+    z-index: 2;
 }
 
 .pagetop.in {

@@ -97,6 +97,7 @@ header .topBack{
     top: 70px;
     width: 100%;
     height: 490px;
+    z-index: 2;
 }
 
 .umi h1{
@@ -194,6 +195,17 @@ header .topBack{
     transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
+.square1{
+    width: 50%;
+    height: 547px;
+    position: absolute;
+    top: 266px;
+    left: 0px;
+    z-index: 1;
+    background-color: rgba(169, 217, 212, 0.5);
+}
+
+
 /* OUTOTU */
 .outotu{
     width: 1270px;
@@ -207,6 +219,7 @@ header .topBack{
     top: 70px;
     width: 100%;
     height: 620px;
+    z-index: 2;
 }
 
 .svg2{
@@ -298,6 +311,17 @@ header .topBack{
     transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
+
+.square2{
+    width: 35%;
+    height: 705px;
+    position: absolute;
+    top: 1096px;
+    right: 0px;
+    z-index: 1;
+    background-color: rgba(169, 217, 212, 0.5)
+}
+
 /* TAIYOU */
 .taiyou{
     width: 1270px;
@@ -311,6 +335,8 @@ header .topBack{
     top: 70px;
     width: 100%;
     height: 500px;
+
+    z-index: 2;
 }
 
 .taiyou h1{
@@ -390,6 +416,16 @@ header .topBack{
     transition: .6s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
+.square3{
+    width: 50%;
+    height: 471px;
+    position: absolute;
+    top: 1956px;
+    left: 0px;
+    z-index: 1;
+    background-color: rgba(169, 217, 212, 0.5);
+}
+
 /* AOIROAKAIRO */
 .aoiroakairo{
     width: 1270px;
@@ -403,6 +439,7 @@ header .topBack{
     top: 70px;
     width: 100%;
     height: 500px;
+    z-index: 2;
 }
 
 .aoiroakairo h1{
@@ -497,6 +534,16 @@ header .topBack{
     transition: .5s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
+.square4{
+    width: 50%;
+    height: 704px;
+    position: absolute;
+    top: 2886px;
+    right: 0px;
+    z-index: 1;
+    background-color: rgba(169, 217, 212, 0.5);
+}
+
 /* MIZUSHIBUKI */
 .mizushibuki{
     width: 1270px;
@@ -510,6 +557,7 @@ header .topBack{
     top: 70px;
     width: 100%;
     height: 500px;
+    z-index: 2;
 }
 
 .mizushibuki h1{
@@ -591,6 +639,16 @@ header .topBack{
     left: 1117px;
 
     transition: .5s cubic-bezier(0, 0, 0.35, 1.09);
+}
+
+.square5{
+    width: 42%;
+    height: 624px;
+    position: absolute;
+    top: 3896px;
+    left: 0px;
+    z-index: 1;
+    background-color: rgba(169, 217, 212, 0.5);
 }
 
 /* PAGE TOP */
