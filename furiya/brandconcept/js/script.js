@@ -19,6 +19,9 @@ $(function() {
         $('.turquoise').css('transform', 'translateY('+ scrollNum * -0.2 + 'px )');
         }
 
+        $('#bg1').css('transform', 'translateY('+ scrollNum * -1.0 + 'px )');
+        }
+
 });
 
 ////////////////////
