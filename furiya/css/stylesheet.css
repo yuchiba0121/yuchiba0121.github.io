@@ -372,7 +372,7 @@ header .arrow1{
     height: 520px;
     position: absolute;
     top: 1286px;
-    /* background-color: green; */
+    opacity: 0;
 }
 
 .square1{
@@ -383,8 +383,6 @@ header .arrow1{
     left: 0px;
     z-index: 1;
     background-color: rgba(169, 217, 212, 0.5);
-
-        opacity: 0;
 }
 
 
