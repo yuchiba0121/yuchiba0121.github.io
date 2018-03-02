@@ -177,15 +177,6 @@ header p{
     position: absolute;
     top: 500px;
     z-index: 1;
-
-    transition: 1.5s cubic-bezier(0.09, 0.91, 0.47, 1.02);
-    animation-name: fade-in;
-    animation-duration: 1s;
-    animation-timing-function: ease-in;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: forwards;
 }
 
 .square1{
@@ -196,6 +187,15 @@ header p{
     left: 0px;
     background-color: rgba(169, 217, 212, 0.5);
     opacity: 0;
+
+    transition: 1.5s cubic-bezier(0.09, 0.91, 0.47, 1.02);
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
 }
 
 /* YURAI */
