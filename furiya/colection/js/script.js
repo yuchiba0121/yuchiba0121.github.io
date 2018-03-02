@@ -63,6 +63,11 @@ $(function() {
         $('.umino').addClass('fade-in').addClass('fade-in-delay2');
         });
 
+    $('#bg1').on('inview', function() {
+        // 要素がウィンドウの表示領域に現れたときに実行する処理
+        $('.square1').addClass('fade-in').addClass('fade-in-delay4');
+        });
+
     ////////////////////
     $('#outotu_zinwari').on('inview', function() {
         // 要素がウィンドウの表示領域に現れたときに実行する処理

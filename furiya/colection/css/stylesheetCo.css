@@ -195,14 +195,23 @@ header .topBack{
     transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
-.square1{
-    width: 50%;
+#bg1{
+    width: 100%;
     height: 547px;
     position: absolute;
     top: 266px;
     left: 0px;
     z-index: 1;
+}
+
+.square1{
+    width: 50%;
+    height: 547px;
+    position: absolute;
+    left: 0px;
+    z-index: 1;
     background-color: rgba(169, 217, 212, 0.5);
+    opacity: 0;
 }
 
 
@@ -311,15 +320,23 @@ header .topBack{
     transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
+#bg2{
+    width: 100%;
+    height: 547px;
+    position: absolute;
+    top: 1096px;
+    right: 0px;
+    z-index: 1;
+}
 
 .square2{
     width: 35%;
     height: 705px;
     position: absolute;
-    top: 1096px;
     right: 0px;
     z-index: 1;
     background-color: rgba(169, 217, 212, 0.5)
+    opacity: 0;
 }
 
 /* TAIYOU */
@@ -695,4 +712,27 @@ header .topBack{
     font-size: 12px;
     font-weight: bold;
     letter-spacing: 8px;
+}
+
+/* FOOTER */
+footer{
+    width: 1270px;
+    height: 155px;
+    position: relative;
+    margin: 250px auto 0px;
+}
+
+footer a{
+        text-decoration: none;
+        color: #000;
+}
+
+footer p{
+    width: 100%;
+    height: 13px;
+    font-size: 12px;
+    letter-spacing: 8px;
+    text-align: center;
+    position: absolute;
+    margin-top: 100px;
 }
