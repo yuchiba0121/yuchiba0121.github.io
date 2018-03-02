@@ -490,14 +490,22 @@ header .arrow1{
     z-index: 2;
 }
 
-.square3{
+#bg2{
+    width: 100%;
+    height: 640px;
+    position: absolute;
+    top: 2306px;
+}
+
+.square2{
     width: 640px;
     height: 540px;
     position: absolute;
-    top: 2306px;
+    top: 0px;
     right: 0px;
     z-index: 1;
     background-color: rgba(169, 217, 212, 0.5);
+    opacity: 0;
 }
 
 /* NEWS */
@@ -663,15 +671,6 @@ footer p{
     margin: -440px auto 0px;
     z-index: 1;
 }
-
-.square2{
-    width: 100%;
-    height: 440px;
-    position: absolute;
-    background-color: rgba(169, 217, 212, 0.5);
-}
-
-
 
 
 
