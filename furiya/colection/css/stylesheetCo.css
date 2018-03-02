@@ -25,6 +25,19 @@ body{
     animation-fill-mode: forwards;
 }
 
+.fade-in1{
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+.fade-in-delay1{
+    animation-delay: .1s
+}
 .fade-in-delay2{
     animation-delay: .2s
 }
@@ -324,7 +337,7 @@ header .topBack{
     width: 100%;
     height: 547px;
     position: absolute;
-    top: 1096px;
+    top: 1006px;
     right: 0px;
     z-index: 1;
 }
@@ -335,7 +348,7 @@ header .topBack{
     position: absolute;
     right: 0px;
     z-index: 1;
-    background-color: rgba(169, 217, 212, 0.5)
+    background-color: rgba(169, 217, 212, 0.5);
     opacity: 0;
 }
 
@@ -433,14 +446,23 @@ header .topBack{
     transition: .6s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
+#bg3{
+    width: 100%;
+    height: 471px;
+    position: absolute;
+    top: 1986px;
+    left: 0px;
+    z-index: 1;
+}
+
 .square3{
     width: 50%;
     height: 471px;
     position: absolute;
-    top: 1956px;
     left: 0px;
     z-index: 1;
     background-color: rgba(169, 217, 212, 0.5);
+    opacity: 0;
 }
 
 /* AOIROAKAIRO */
@@ -551,14 +573,23 @@ header .topBack{
     transition: .5s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
+#bg4{
+    width: 100%;
+    height: 704px;
+    position: absolute;
+    top: 2826px;
+    right: 0px;
+    z-index: 1;
+}
+
 .square4{
     width: 50%;
     height: 704px;
     position: absolute;
-    top: 2886px;
     right: 0px;
     z-index: 1;
     background-color: rgba(169, 217, 212, 0.5);
+    opacity: 0;
 }
 
 /* MIZUSHIBUKI */
@@ -658,14 +689,23 @@ header .topBack{
     transition: .5s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
+#bg5{
+    width: 100%;
+    height: 624px;
+    position: absolute;
+    top: 3886px;
+    left: 0;
+    z-index: 1;
+}
+
 .square5{
     width: 42%;
     height: 624px;
     position: absolute;
-    top: 3896px;
     left: 0px;
     z-index: 1;
     background-color: rgba(169, 217, 212, 0.5);
+    opacity: 0;
 }
 
 /* PAGE TOP */
@@ -692,8 +732,8 @@ header .topBack{
 }
 
 .pagetop a{
-        text-decoration: none;
-        color: #000;
+    text-decoration: none;
+    color: #000;
 }
 
 /* ARROW */

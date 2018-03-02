@@ -65,7 +65,7 @@ $(function() {
 
     $('#bg1').on('inview', function() {
         // 要素がウィンドウの表示領域に現れたときに実行する処理
-        $('.square1').addClass('fade-in').addClass('fade-in-delay4');
+        $('.square1').addClass('fade-in1').addClass('fade-in-delay1');
         });
 
     ////////////////////
@@ -77,6 +77,11 @@ $(function() {
         $('.sentens2').addClass('fade-in').addClass('fade-in-delay12');
         });
 
+    $('#bg2').on('inview', function() {
+        // 要素がウィンドウの表示領域に現れたときに実行する処理
+        $('.square2').addClass('fade-in1').addClass('fade-in-delay1');
+        });
+
     ////////////////////
     $('#taiyou_zinwari').on('inview', function() {
         // 要素がウィンドウの表示領域に現れたときに実行する処理
@@ -84,6 +89,11 @@ $(function() {
         $('.taiyou h1').addClass('fade-in').addClass('fade-in-delay8');
         $('.taiyou h2').addClass('fade-in').addClass('fade-in-delay12');
         $('.sentens3').addClass('fade-in').addClass('fade-in-delay12');
+        });
+
+    $('#bg3').on('inview', function() {
+        // 要素がウィンドウの表示領域に現れたときに実行する処理
+        $('.square3').addClass('fade-in1').addClass('fade-in-delay1');
         });
 
     ////////////////////
@@ -95,6 +105,11 @@ $(function() {
         $('.sentens4').addClass('fade-in').addClass('fade-in-delay12');
         });
 
+    $('#bg4').on('inview', function() {
+        // 要素がウィンドウの表示領域に現れたときに実行する処理
+        $('.square4').addClass('fade-in1').addClass('fade-in-delay1');
+        });
+
     ////////////////////
     $('#mizushibuki_zinwari').on('inview', function() {
         // 要素がウィンドウの表示領域に現れたときに実行する処理
@@ -102,6 +117,11 @@ $(function() {
         $('.mizushibuki h1').addClass('fade-in').addClass('fade-in-delay8');
         $('.mizushibuki h2').addClass('fade-in').addClass('fade-in-delay12');
         $('.sentens5').addClass('fade-in').addClass('fade-in-delay12');
+        });
+
+    $('#bg5').on('inview', function() {
+        // 要素がウィンドウの表示領域に現れたときに実行する処理
+        $('.square5').addClass('fade-in1').addClass('fade-in-delay1');
         });
 
         // PAGETOPに戻る
