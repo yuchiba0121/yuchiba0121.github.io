@@ -85,7 +85,6 @@ $(function() {
         $('.svg2').addClass('fade-in').addClass('fade-in-delay8');
         $('.outotu h2').addClass('fade-in').addClass('fade-in-delay12');
         $('.sentens2').addClass('fade-in').addClass('fade-in-delay12');
-        $('.outotu1').addClass('fade-in').addClass('fade-in-delay6');
         });
 
     $('#bg2').on('inview', function() {

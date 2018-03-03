@@ -324,6 +324,14 @@ header p{
 
     opacity: 0;
     transition: .2s cubic-bezier(0, 0, 0.35, 1.09);
+
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
 }
 
 .outotu2 img{
