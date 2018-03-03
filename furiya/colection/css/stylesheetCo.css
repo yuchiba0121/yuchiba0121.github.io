@@ -760,6 +760,8 @@ header p{
     transform: translateY(220px);
     letter-spacing: 8px;
     transition: all 1s;
+
+    z-index: 3;
 }
 
 .pagetop.in {
