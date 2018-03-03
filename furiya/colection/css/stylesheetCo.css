@@ -322,6 +322,7 @@ header p{
     top: 60px;
     left: 352px;
 
+    opacity: 0;
     transition: .2s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
