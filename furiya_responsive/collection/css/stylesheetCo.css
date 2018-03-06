@@ -1,0 +1,815 @@
+/* Common Style */
+
+
+body{
+    font-family:'Quattrocento Sans'
+}
+
+/* fade-in設定 */
+@keyframes fade-in {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.fade-in{
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+.fade-in1{
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+.fade-in-delay1{
+    animation-delay: .1s
+}
+.fade-in-delay2{
+    animation-delay: .2s
+}
+.fade-in-delay4{
+    animation-delay: .4s
+}
+.fade-in-delay6{
+    animation-delay: .6s
+}
+.fade-in-delay8{
+    animation-delay: .8s
+}
+.fade-in-delay10{
+    animation-delay: 1s
+}
+.fade-in-delay12{
+    animation-delay: 1.2s
+}
+.fade-in-delay14{
+    animation-delay: 1.4s
+}
+.fade-in-delay15{
+    animation-delay: 1.5s
+}
+.fade-in-delay16{
+    animation-delay: 1.6s
+}
+.fade-in-delay18{
+    animation-delay: 1.8s
+}
+.fade-in-delay20{
+    animation-delay: 2.0s
+}
+.fade-in-delay25{
+    animation-delay: 2.5s
+}
+.fade-in-delay30{
+    animation-delay: 3.0s
+}
+.fade-in-delay32{
+    animation-delay: 3.2s
+}
+
+
+/* LOGO */
+header{
+    width: 1500px;
+    height: 150px;
+    margin: 0 auto 0;
+}
+
+header .topBack{
+    width:  110px;
+    position: fixed;
+    left: 100px;
+    top: 30px;
+    z-index: 3;
+}
+
+header h1{
+    width: 1500px;
+    height: 65px;
+    position: absolute;
+    top: 80px;
+}
+
+header p{
+    width: 373px;
+    height: 36px;
+    font-size: 36px;
+    letter-spacing: 23px;
+    line-height: 1.3;
+    margin: 0 auto;
+}
+
+/* UMINORAKAEAMONO */
+.umi{
+    width: 1270px;
+    height: 530px;
+    margin: 50px auto 230px;
+    position: relative;
+}
+
+#umi_zinwari{
+    position: relative;
+    top: 70px;
+    width: 100%;
+    height: 490px;
+    z-index: 2;
+}
+
+.umi h1{
+    width: 54px;
+    height: 54px;
+    font-family: 'Lora', serif;
+    font-size: 65px;
+    position: relative;
+    top: 0px;
+    left: 198px;
+    z-index: 2;
+
+    opacity: 0;
+}
+
+.chaku_umi img{
+    width: 674px;
+    height: 456px;
+}
+
+.chaku_umi{
+    position: relative;
+    top: -20px;
+    left: 130px;
+    z-index: 1;
+
+    opacity: 0;
+}
+
+.umi h2{
+    font-size: 18px;
+    transform: rotate(-90deg );
+    letter-spacing: 1.5px;
+    position: absolute;
+    top: 100px;
+    left: 745px;
+
+    opacity: 0;
+}
+
+.sentens{
+    font-family: "fot-tsukubrdgothic-std";
+    font-size: 13px;
+    line-height: 1.6;
+    width: 263px;
+    height: 123px;
+    position: absolute;
+    top: 330px;
+    left: 715px;
+    z-index: 3;
+    opacity: 0;
+}
+
+.umi1 img{
+    width: 109px;
+    height: 225px;
+}
+
+.umi1{
+    position: absolute;
+    top: -51px;
+    left: 981px;
+
+    opacity: 0;
+    transition: .2s cubic-bezier(0, 0, 0.35, 1.09);
+}
+
+.umi2 img{
+    width: 131px;
+    height: 221px;
+}
+
+.umi2{
+    position: absolute;
+    top: 360px;
+    left: 1075px;
+
+    opacity: 0;
+    transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
+}
+
+.umino p{
+    font-size: 8px;
+    letter-spacing: 1.3px;
+}
+
+.umino{
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    top: 610px;
+    left: 1083px;
+
+    opacity: 0;
+    transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
+}
+
+#bg1{
+    width: 100%;
+    height: 547px;
+    position: absolute;
+    top: 266px;
+    left: 0px;
+    z-index: 1;
+
+    transition: 1.5s cubic-bezier(0.09, 0.91, 0.47, 1.02);
+}
+
+.square1{
+    width: 50%;
+    height: 547px;
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+    background-color: rgba(169, 217, 212, 0.5);
+    opacity: 0;
+}
+
+
+/* OUTOTU */
+.outotu{
+    width: 1270px;
+    height: 670px;
+    position: relative;
+    margin: 0 auto 290px;
+}
+
+#outotu_zinwari{
+    position: relative;
+    top: 70px;
+    width: 100%;
+    height: 620px;
+    z-index: 2;
+}
+
+.svg2{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 6px;
+    left: 800px;
+    z-index: 2;
+
+    opacity: 0;
+}
+
+.outotu h2{
+    font-size: 18px;
+    transform: rotate(-90deg );
+    letter-spacing: 1.5px;
+    position: absolute;
+    top: 94px;
+    left: 659px;
+
+    opacity: 0;
+}
+
+.chaku_outotu img{
+    width: 393px;
+    height: 588px;
+}
+
+.chaku_outotu{
+    position: absolute;
+    top: 30px;
+    right: 130px;
+    z-index: 1;
+
+    opacity: 0;
+}
+
+.outotu .sentens2{
+    font-family: "fot-tsukubrdgothic-std";
+    font-size: 13px;
+    line-height: 1.6;
+    width: 263px;
+    height: 90px;
+    position: absolute;
+    top: 480px;
+    left: 586px;
+    z-index: 2;
+
+    opacity: 0;
+}
+
+.outotu1 img{
+    width: 159px;
+    height: 275px;
+}
+
+.outotu1{
+    position: absolute;
+    top: 60px;
+    left: 352px;
+
+    opacity: 0;
+    transition: .2s cubic-bezier(0, 0, 0.35, 1.09);
+
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+.outotu2 img{
+    width: 154px;
+    height: 244px;
+}
+
+.outotu2{
+    position: absolute;
+    top: 575px;
+    left: 100px;
+
+    transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
+}
+
+.o p{
+    font-size: 8px;
+    letter-spacing: 1.3px;
+    /* color: #8F9C9C; */
+}
+
+.o{
+    position: absolute;
+    top: 839px;
+    left: 170px;
+    transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
+}
+
+#bg2{
+    width: 100%;
+    height: 547px;
+    position: absolute;
+    top: 1796px;
+    right: 0px;
+    z-index: 1;
+
+    transition: 1.5s cubic-bezier(0.09, 0.91, 0.47, 1.02);
+}
+
+.square2{
+    width: 35%;
+    height: 495px;
+    position: absolute;
+    right: 0px;
+    z-index: 1;
+    background-color: rgba(169, 217, 212, 0.5);
+    opacity: 0;
+}
+
+/* TAIYOU */
+.taiyou{
+    width: 1270px;
+    height: 550px;
+    position: relative;
+    margin: 0 auto 300px;
+}
+
+#taiyou_zinwari{
+    position: relative;
+    top: 70px;
+    width: 100%;
+    height: 500px;
+
+    z-index: 2;
+}
+
+.taiyou h1{
+    width: 54px;
+    height: 54px;
+    font-family: 'Lora', serif;
+    font-size: 65px;
+    position: relative;
+    top: 0px;
+    left: 295px;
+    z-index: 2;
+
+    opacity: 0;
+}
+
+.taiyou h2{
+    font-size: 18px;
+    transform: rotate(-90deg );
+    letter-spacing: 1.5px;
+    position: absolute;
+    top: 156px;
+    left: 696px;
+
+    opacity: 0;
+}
+
+.chaku_taiyou img{
+    width: 588px;
+    height: 393px;
+}
+
+.chaku_taiyou{
+    position: absolute;
+    top: 32px;
+    left: 228px;
+
+    opacity: 0;
+}
+
+.sentens3{
+    font-family: "fot-tsukubrdgothic-std";
+    font-size: 13px;
+    line-height: 1.6;
+    width: 292px;
+    height: 189px;
+    position: absolute;
+    top: 404px;
+    left: 788px;
+
+    opacity: 0;
+}
+
+.taiyou1 img{
+    width: 165px;
+    height: 391px;
+}
+
+.taiyou1{
+    position: absolute;
+    top: 60px;
+    left: 978px;
+
+    transition: .6s cubic-bezier(0, 0, 0.35, 1.09);
+}
+
+.ty p{
+    font-size: 8px;
+    letter-spacing: 1.3px;
+    /* color: #8F9C9C; */
+}
+
+.ty{
+    position: absolute;
+    top: 475px;
+    left: 1050px;
+
+    transition: .6s cubic-bezier(0, 0, 0.35, 1.09);
+}
+
+#bg3{
+    width: 100%;
+    height: 471px;
+    position: absolute;
+    top: 3336px;
+    left: 0px;
+    z-index: 1;
+
+    transition: 1.5s cubic-bezier(0.09, 0.91, 0.47, 1.02);
+}
+
+.square3{
+    width: 50%;
+    height: 471px;
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+    background-color: rgba(169, 217, 212, 0.5);
+    opacity: 0;
+}
+
+/* AOIROAKAIRO */
+.aoiroakairo{
+    width: 1270px;
+    height: 725px;
+    position: relative;
+    margin: 0 auto 340px;
+}
+
+#aoiroakairo_zinwari{
+    position: relative;
+    top: 70px;
+    width: 100%;
+    height: 500px;
+    z-index: 2;
+}
+
+.aoiroakairo h1{
+    width: 54px;
+    height: 54px;
+    font-family: 'Lora', serif;
+    font-size: 65px;
+    position: relative;
+    top: 0px;
+    left: 588px;
+    z-index: 2;
+
+    opacity: 0;
+}
+
+.aoiroakairo h2{
+    font-size: 18px;
+    transform: rotate(-90deg );
+    letter-spacing: 1.5px;
+    position: absolute;
+    top: 180px;
+    left: 354px;
+    z-index: 2;
+
+    opacity: 0;
+}
+
+.chaku_aoaka img{
+    width: 684px;
+    height: 587px;
+}
+
+.chaku_aoaka{
+    position: absolute;
+    top: 38px;
+    left: 520px;
+
+    opacity: 0;
+}
+
+.aoiroakairo .sentens4{
+    font-family: "fot-tsukubrdgothic-std";
+    font-size: 13px;
+    line-height: 1.6;
+    width: 292px;
+    height: 110px;
+    position: absolute;
+    top: 530px;
+    left: 423px;
+    z-index: 2;
+
+    opacity: 0;
+}
+
+.aoaka1 img{
+    width: 165px;
+    height: 279px;
+}
+
+.aoaka1{
+    position: absolute;
+    top: 720px;
+    left: 30px;
+
+    transition: .5s cubic-bezier(0, 0, 0.35, 1.09);
+}
+
+.aoaka2 img{
+    width: 198px;
+    height: 278px;
+}
+
+.aoaka2{
+    position: absolute;
+    top: 1000px;
+    left: 130px;
+
+    transition: .3s cubic-bezier(0, 0, 0.35, 1.09);
+}
+
+.aoaka p{
+    font-size: 8px;
+    letter-spacing: 1.3px;
+    /* color: #8F9C9C; */
+}
+
+.aoaka{
+    position: absolute;
+    top: 1015px;
+    left: 78px;
+
+    transition: .5s cubic-bezier(0, 0, 0.35, 1.09);
+}
+
+#bg4{
+    width: 100%;
+    height: 704px;
+    position: absolute;
+    top: 5246px;
+    right: 0px;
+    z-index: 1;
+
+    transition: 1.5s cubic-bezier(0.09, 0.91, 0.47, 1.02);
+}
+
+.square4{
+    width: 50%;
+    height: 704px;
+    position: absolute;
+    right: 0px;
+    z-index: 1;
+    background-color: rgba(169, 217, 212, 0.5);
+    opacity: 0;
+}
+
+/* MIZUSHIBUKI */
+.mizushibuki{
+    width: 1270px;
+    height: 600px;
+    position: relative;
+    margin: 0 auto 200px;
+}
+
+#mizushibuki_zinwari{
+    position: relative;
+    top: 70px;
+    width: 100%;
+    height: 500px;
+    z-index: 2;
+}
+
+.mizushibuki h1{
+    width: 54px;
+    height: 54px;
+    font-family: 'Lora', serif;
+    font-size: 65px;
+    position: relative;
+    top: 0px;
+    left: 72px;
+    z-index: 2;
+
+    opacity: 0;
+}
+
+.mizushibuki h2{
+    font-size: 18px;
+    transform: rotate(-90deg );
+    letter-spacing: 1.5px;
+    position: absolute;
+    top: 174px;
+    left: 655px;
+
+    opacity: 0;
+}
+
+.chaku_mizushibuki img{
+    width: 783px;
+    height: 520px;
+}
+
+.chaku_mizushibuki{
+    position: absolute;
+    top: 31px;
+    left: 8px;
+
+    opacity: 0;
+}
+
+.mizushibuki .sentens5{
+    font-family: "fot-tsukubrdgothic-std";
+    font-size: 13px;
+    line-height: 1.6;
+    width: 300px;
+    height: 90px;
+    position: absolute;
+    top: 515px;
+    left: 674px;
+
+    opacity: 0;
+}
+
+.white{
+    color: #fff;
+}
+
+.mizushibuki1 img{
+    width: 197px;
+    height: 297px;
+}
+
+.mizushibuki1{
+    position: absolute;
+    top: 610px;
+    left: 1000px;
+
+    transition: .5s cubic-bezier(0, 0, 0.35, 1.09);
+}
+
+.msbk p{
+    font-size: 8px;
+    letter-spacing: 1.3px;
+    /* color: #8F9C9C; */
+}
+
+.msbk{
+    position: absolute;
+    top: 875px;
+    left: 1117px;
+
+    transition: .5s cubic-bezier(0, 0, 0.35, 1.09);
+}
+
+#bg5{
+    width: 100%;
+    height: 624px;
+    position: absolute;
+    top: 7130px;
+    left: 0;
+    z-index: 1;
+
+    transition: 1.5s cubic-bezier(0.09, 0.91, 0.47, 1.02);
+}
+
+.square5{
+    width: 42%;
+    height: 624px;
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+    background-color: rgba(169, 217, 212, 0.5);
+    opacity: 0;
+}
+
+/* PAGE TOP */
+.pagetop p{
+    width: 118px;
+    height: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    transform: rotate(-90deg );
+}
+
+.pagetop {
+    position: fixed;
+    right: 50%;
+    margin-right: -715px;
+    bottom: 100px;
+    transform: translateY(220px);
+    letter-spacing: 8px;
+    transition: all 1s;
+
+    z-index: 3;
+}
+
+.pagetop.in {
+    transform: translateY(0px);
+}
+
+.pagetop a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* ARROW */
+
+.arrow a{
+    width: 50px;
+    height: 40px;
+    background: url(../image/arrowBack.svg) left bottom no-repeat;
+    color: #000;
+    text-decoration: none;
+    position: fixed;
+    top: 110px;
+    left: 100px;
+    z-index: 3;
+
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 8px;
+}
+
+/* FOOTER */
+footer{
+    width: 1270px;
+    height: 155px;
+    position: relative;
+    margin: 250px auto 0px;
+}
+
+footer a{
+        text-decoration: none;
+        color: #000;
+}
+
+footer p{
+    width: 100%;
+    height: 13px;
+    font-size: 12px;
+    letter-spacing: 8px;
+    text-align: center;
+    position: absolute;
+    margin-top: 100px;
+}

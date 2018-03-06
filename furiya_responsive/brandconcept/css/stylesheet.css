@@ -1,0 +1,486 @@
+/* Common Style */
+body{
+    font-family:'Quattrocento Sans'
+}
+
+/* LOGO */
+header{
+    width: 1500px;
+    height: 150px;
+    margin: 0 auto 0;
+    z-index: 1;
+}
+
+header .topBack{
+    width:  110px;
+    position: fixed;
+    left: 100px;
+    top: 30px;
+    z-index: 3;
+}
+
+header h1{
+    width: 1500px;
+    height: 65px;
+    position: absolute;
+    top: 80px;
+}
+
+header p{
+    width: 556px;
+    height: 36px;
+    font-size: 36px;
+    letter-spacing: 23px;
+    margin: 0 auto;
+}
+
+/* TOP */
+
+.top{
+    width: 1270px;
+    height: 654px;
+    position: relative;
+    margin: 80px auto 0;
+    z-index: 2;
+}
+
+.top h1{
+    position: absolute;
+    top: 104px;
+    left: 685px;
+    font-size: 56px;
+    letter-spacing: 2.2px;
+    z-index: 2;
+
+    opacity: 0;
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 1.5s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+.shape1{
+    width: 48px;
+    border-bottom: 1px #000 solid;
+    position: absolute;
+    top: 190px;
+    left: 813px;
+
+    opacity: 0;
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 1.5s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+.top p{
+    font-family: "fot-tsukubrdgothic-std";
+    font-size: 13px;
+    line-height: 1.6;
+
+    opacity: 0;
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+.top .sentens1{
+    width: 458px;
+    height: 80px;
+    position: absolute;
+    top: 240px;
+    left: 722px;
+    z-index: 2;
+
+    opacity: 0;
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 2.0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+.top .sentens2{
+    width: 458px;
+    height: 52px;
+    position: absolute;
+    top: 350px;
+    left: 722px;
+    z-index: 2;
+
+    opacity: 0;
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 2.5s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+.top .sentens3{
+    width: 458px;
+    height: 20px;
+    position: absolute;
+    top: 420px;
+    left: 722px;
+    z-index: 2;
+
+    opacity: 0;
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 3.0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+.top img{
+    width: 654px;
+    height: 654px;
+}
+
+.top .topPic{
+    position: absolute;
+    top: 0;
+    left: 130px;
+    z-index: 1;
+
+    opacity: 0;
+    transition: .8s cubic-bezier(0, 0, 0.35, 1.09);
+
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+#bg1{
+    width: 100%;
+    height: 520px;
+    position: absolute;
+    top: 500px;
+    z-index: 1;
+
+    transition: 1.5s cubic-bezier(0.09, 0.91, 0.47, 1.02);
+}
+
+.square1{
+    width: 70%;
+    height: 480px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(169, 217, 212, 0.5);
+    opacity: 0;
+
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+/* YURAI */
+
+.yurai{
+    width: 1270px;
+    height: 700px;
+    position: relative;
+    margin: 142px auto 0;
+}
+
+.yurai .logo img{
+    width: 225px;
+    height: 88px;
+}
+
+.yurai .logo{
+    position: absolute;
+    top: 0;
+    left: 198px;
+}
+
+.shape2{
+    width: 48px;
+    border-bottom: 1px #000 solid;
+    position: absolute;
+    top: 120px;
+    left: 198px;
+}
+
+.yurai .sentens1{
+    width: 390px;
+    height: 250px;
+    font-family: "fot-tsukubrdgothic-std";
+    font-size: 13px;
+    line-height: 1.6;
+    position: absolute;
+    top: 180px;
+    left: 198px;
+}
+
+.yurai .sentens2{
+    width: 390px;
+    height: 200px;
+    font-size: 13px;
+    line-height: 1.6;
+    position: absolute;
+    top: 298px;
+    left: 198px;
+}
+
+.arrowSS{
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    top: 410px;
+    left: 198px;
+}
+
+.arrowSS img{
+    transition: 1s ;
+}
+
+.arrowSS img:hover{
+	opacity: 0.5 ;
+}
+
+
+.yurai .sentens3{
+    font-size: 13px;
+    letter-spacing: 2.5px;
+    font-weight: bold;
+    position: absolute;
+    top: 435px;
+    left: 268px;
+    text-decoration: none;
+    color: #000;
+}
+
+/*STONE*/
+#stone_zinwari{
+    width: 100%;
+    height: 500px;
+
+}
+
+.coral{
+    width: 390px;
+    height: 210px;
+    position: relative;
+    top: -80px;
+    right: -880px;
+
+    opacity: 0;
+}
+
+.coral h2{
+    font-size: 18px;
+    width: 160px;
+    height: 25px;
+    position: absolute;
+    top: 110px;
+    left: 245px;
+}
+
+.coral p{
+    font-family: "fot-tsukubrdgothic-std";
+    font-size: 13px;
+    line-height: 1.6;
+    width: 160px;
+    height: 40px;
+    position: absolute;
+    top: 140px;
+    left: 245px;
+}
+
+.sunstone{
+    width: 390px;
+    height: 220px;
+    position: relative;
+    top: -50px;
+    right: -880px;
+    /* background-color: green; */
+
+    opacity: 0;
+    transition: .6s cubic-bezier(0, 0, 0.35, 1.09);
+}
+
+.sunstone h2{
+    font-size: 18px;
+    width: 160px;
+    height: 25px;
+    position: absolute;
+    top: 110px;
+    left: 245px;
+}
+
+.sunstone p{
+    font-family: "fot-tsukubrdgothic-std";
+    font-size: 13px;
+    line-height: 1.6;
+    width: 160px;
+    height: 40px;
+    position: absolute;
+    top: 140px;
+    left: 245px;
+}
+
+.labra{
+    width: 390px;
+    height: 210px;
+    position: relative;
+    top: 10px;
+    right: -880px;
+    /* background-color: green; */
+
+    opacity: 0;
+    transition: .8s cubic-bezier(0, 0, 0.35, 1.09);
+}
+
+.labra h2{
+    font-size: 18px;
+    width: 160px;
+    height: 25px;
+    position: absolute;
+    top: 110px;
+    left: 245px;
+}
+
+.labra p{
+    font-family: "fot-tsukubrdgothic-std";
+    font-size: 13px;
+    line-height: 1.6;
+    width: 160px;
+    height: 40px;
+    position: absolute;
+    top: 140px;
+    left: 245px;
+}
+
+.turquoise{
+    width: 390px;
+    height: 310px;
+    position: relative;
+    top: 82px;
+    right: -880px;
+    margin-bottom: 100px;
+    /* background-color: green; */
+
+    opacity: 0;
+    transition: 1.0s cubic-bezier(0, 0, 0.35, 1.09);
+
+}
+
+.turquoise h2{
+    font-size: 18px;
+    width: 160px;
+    height: 25px;
+    position: absolute;
+    top: 110px;
+    left: 245px;
+}
+
+.turquoise p{
+    font-family: "fot-tsukubrdgothic-std";
+    font-size: 13px;
+    line-height: 1.6;
+    width: 160px;
+    height: 40px;
+    position: absolute;
+    top: 140px;
+    left: 245px;
+}
+
+.arrow a{
+    width: 50px;
+    height: 40px;
+    background: url(../image/arrowBack.svg) left bottom no-repeat;
+    color: #000;
+    text-decoration: none;
+    position: fixed;
+    top: 110px;
+    left: 100px;
+    z-index: 3;
+
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 8px;
+}
+
+footer{
+    width: 1270px;
+    height: 155px;
+    position: relative;
+    margin: 200px auto 0px;
+}
+
+footer a{
+        text-decoration: none;
+        color: #000;
+}
+
+footer p{
+    width: 100%;
+    height: 13px;
+    font-size: 12px;
+    letter-spacing: 8px;
+    text-align: center;
+    position: absolute;
+    margin-top: 100px;
+}
+
+
+
+
+@keyframes fade-in {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.fade-in{
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+/* アニメーション */
+.fade-in-delay10{
+    animation-delay: 1.0s
+}
+.fade-in-delay14{
+    animation-delay: 1.4s
+}
+.fade-in-delay18{
+    animation-delay: 1.8s
+}
+.fade-in-delay22{
+    animation-delay: 2.2s
+}
