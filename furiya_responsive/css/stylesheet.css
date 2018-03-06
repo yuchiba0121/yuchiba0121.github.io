@@ -263,7 +263,7 @@ header .arrow1{
         font-size: 12px;
         width: 142px;
         position: absolute;
-        top: 445px;
+        top: 440px;
         left: 29px;
         letter-spacing: 1.6px;
         line-height: 1.2;
@@ -280,8 +280,12 @@ header .arrow1{
     }
     header .arrow1{
         position: absolute;
-        top: 914px;
-        left: 0px;
+        top: 545px;
+        left: 27px;
+    }
+    header .arrow1 img{
+        width: 30px;
+        height: 30px;
     }
 }
 
