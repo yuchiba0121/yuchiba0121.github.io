@@ -242,8 +242,8 @@ header .arrow1{
         height: 103px;
     }
     header .bg_red{
-        position: relative;
-        top: 215px;
+        position: absolute;
+        top: 408px;
         left: 260px;
         z-index: 1;
     }
@@ -281,7 +281,7 @@ header .arrow1{
     header .arrow1{
         position: absolute;
         top: 914px;
-        left: 410px;
+        left: 0px;
     }
 }
 
