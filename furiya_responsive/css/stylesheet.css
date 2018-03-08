@@ -376,7 +376,6 @@ header .arrow1{
     position: absolute;
     top: 370px;
     left: 190px;
-    transform: rotate(-90deg );
     letter-spacing: 1.5px;
     z-index: 2;
 }
@@ -416,6 +415,81 @@ header .arrow1{
     left: 0px;
     background-color: rgba(169, 217, 212, 0.5);
     opacity: 0;
+}
+
+/* ----------------- RESPONSIVE --------------- */
+
+@media (max-width: 767px) {
+	/* 750px以下の場合に適応される */
+    .bc{
+		width:100%;
+        position: relative;
+        margin: 0px auto 100px;
+	}
+    .bc .umiear{
+        position: absolute;
+        top: 240px;
+        left: 29px;
+        z-index: 2;
+    }
+    .bc .umiear img{
+        width: 118px;
+        height: 147px;
+    }
+    .bc .umiear2{
+        position: absolute;
+        top: 80px;
+        left: 139px;
+    }
+    .bc .umiear2 img{
+        width: 90px;
+        height: 181px;
+    }
+    .bc h2{
+        width: 100%;
+        position: relative;
+        top: 206px;
+        left: 183px;
+        font-size: 20px;
+        letter-spacing: 11px;
+        line-height: 1.2;
+        z-index: 3;
+    }
+    .bc .shape2{
+        width: 20px;
+        border-bottom: 1px #000 solid;
+        position: absolute;
+        top: 275px;
+        left: 234px;
+    }
+    .bc .p3{
+        font-family: "fot-tsukubrdgothic-std";
+        font-size: 12px;
+        width: 142px;
+        position: absolute;
+        top: 440px;
+        left: 0px;
+        letter-spacing: 1.6px;
+        line-height: 1.2;
+    }
+    .bc .p4Rotate {
+        width: 320px;
+        font-size: 8px;
+        position: absolute;
+        top: 204px;
+        left: 180px;
+        letter-spacing: 1.5px;
+        transform: rotate(-90deg );
+    }
+    .bc .arrow2{
+        position: absolute;
+        top: 545px;
+        left: 0px;
+    }
+    .bc .arrow2 img{
+        width: 30px;
+        height: 30px;
+    }
 }
 
 
