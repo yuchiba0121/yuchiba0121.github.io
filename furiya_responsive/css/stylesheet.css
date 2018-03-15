@@ -4,6 +4,15 @@ body{
     font-family:'Quattrocento Sans'
 }
 
+/* ----------------- RESPONSIVE --------------- */
+
+@media (max-width: 767px) {
+	/* 750px以下の場合に適応される */
+    body{
+        overflow-x: hidden;
+    }
+}
+
 @keyframes fade-in {
     0%{
         opacity: 0;
@@ -197,10 +206,9 @@ header .arrow1{
 @media (max-width: 767px) {
 	/* 750px以下の場合に適応される */
     header{
-		width:100vw;
+		width:100%;
         position: relative;
         margin: 0px auto -110px;
-        overflow-x: hidden;
 	}
     header .chakuyou{
         position: absolute;
