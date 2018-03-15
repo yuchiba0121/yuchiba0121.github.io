@@ -70,7 +70,7 @@ body{
 /* header */
 
 header{
-    width: 100%;
+    width: 1270px;
     height: 870px;
     margin: 0 auto 390px;
     position: relative;
@@ -164,7 +164,7 @@ header .p2{
     transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
-.p2 Rotate{
+header .p2Rotate{
     font-size: 18px;
     position: absolute;
     top: 630px;
@@ -199,7 +199,7 @@ header .arrow1{
     header{
 		width:100%;
         position: relative;
-        margin: 0px auto 100px;
+        margin: 0px auto -110px;
 	}
     header .chakuyou{
         position: absolute;
@@ -231,6 +231,9 @@ header .arrow1{
         line-height: 1.2;
         z-index: 3;
     }
+    header .white{
+        color: #000;
+    }
     header .bg_blue{
         position: absolute;
         top: 94px;
@@ -244,7 +247,7 @@ header .arrow1{
     header .bg_red{
         position: absolute;
         top: 408px;
-        left: 260px;
+        left: 233px;
         z-index: 1;
     }
     header .bg_red img{
@@ -293,7 +296,7 @@ header .arrow1{
 
 /* BRAND CONCEPT */
 .bc {
-    width: 100%;
+    width: 1270px;
     height: 528px;
     position: relative;
     margin: 0 auto 300px;
@@ -313,7 +316,7 @@ header .arrow1{
     z-index: 2;
 }
 
-.shape2{
+.bc .shape2{
     width: 48px;
     border-bottom: 1px #000 solid;
     position: absolute;
@@ -324,14 +327,14 @@ header .arrow1{
     z-index: 2;
 }
 
-#u1{
+.bc #u1{
     position: relative;
     top: 70px;
     width: 100%;
     height: 500px;
 }
 
-.umiear{
+.bc .umiear{
     width: 227px;
     height: 287px;
     position: absolute;
@@ -343,7 +346,7 @@ header .arrow1{
     z-index: 2;
 }
 
-.umiear2{
+.bc .umiear2{
     width: 159px;
     height: 324px;
     position: absolute;
@@ -355,7 +358,7 @@ header .arrow1{
     z-index: 2;
 }
 
-.p3{
+.bc .p3{
     font-family: "fot-tsukubrdgothic-std";
     font-size: 13px;
     line-height: 1.6;
@@ -367,20 +370,22 @@ header .arrow1{
     z-index: 2;
 }
 
-.p4{
+.bc .p4{
     transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
 }
 
-.p4Rotate{
+.bc .p4Rotate{
     font-size: 18px;
     position: absolute;
     top: 370px;
     left: 190px;
     letter-spacing: 1.5px;
     z-index: 2;
+
+    transform: rotate(-90deg );
 }
 
-.arrow2{
+.bc .arrow2{
     width: 54px;
     height: 54px;
     position: absolute;
@@ -389,15 +394,15 @@ header .arrow1{
     z-index: 2;
 }
 
-.arrow2 img{
+.bc .arrow2 img{
     transition: 1s ;
 }
 
-.arrow2 img:hover{
+.bc .arrow2 img:hover{
 	opacity: 0.5 ;
 }
 
-#bg1{
+.bc #bg1{
     width: 100%;
     height: 520px;
     position: absolute;
@@ -407,7 +412,7 @@ header .arrow1{
     transition: 1.5s cubic-bezier(0.09, 0.91, 0.47, 1.02);
 }
 
-.square1{
+.bc .square1{
     width: 60%;
     height: 480px;
     position: absolute;
@@ -422,7 +427,7 @@ header .arrow1{
 @media (max-width: 767px) {
 	/* 750px以下の場合に適応される */
     .bc{
-		width:100%;
+		width: 100%;
         position: relative;
         margin: 0px auto 100px;
 	}
@@ -433,8 +438,8 @@ header .arrow1{
         z-index: 2;
     }
     .bc .umiear img{
-        width: 118px;
-        height: 147px;
+        width: 88px;
+        height: 127px;
     }
     .bc .umiear2{
         position: absolute;
@@ -442,8 +447,8 @@ header .arrow1{
         left: 139px;
     }
     .bc .umiear2 img{
-        width: 90px;
-        height: 181px;
+        width: 70px;
+        height: 151px;
     }
     .bc h2{
         width: 100%;
@@ -467,8 +472,8 @@ header .arrow1{
         font-size: 12px;
         width: 142px;
         position: absolute;
-        top: 440px;
-        left: 0px;
+        top: 110px;
+        left: 200px;
         letter-spacing: 1.6px;
         line-height: 1.2;
     }
@@ -476,15 +481,15 @@ header .arrow1{
         width: 320px;
         font-size: 8px;
         position: absolute;
-        top: 204px;
-        left: 180px;
+        top: 14px;
+        left: -144px;
         letter-spacing: 1.5px;
         transform: rotate(-90deg );
     }
     .bc .arrow2{
         position: absolute;
-        top: 545px;
-        left: 0px;
+        top: 256px;
+        left: 199px;
     }
     .bc .arrow2 img{
         width: 30px;
@@ -495,7 +500,7 @@ header .arrow1{
 
 /* NEW ARRIVAL */
 .na{
-    width: 100%;
+    width: 1270px;
     height: 700px;
     position: relative;
     margin: 0 auto 450px;
@@ -616,10 +621,149 @@ header .arrow1{
     opacity: 0;
 }
 
+/* ----------------- RESPONSIVE --------------- */
+
+@media (max-width: 767px) {
+	/* 750px以下の場合に適応される */
+    .na{
+        width: 100%;
+        height: 700px;
+        position: relative;
+        margin: 0 auto 420px;
+    }
+
+    .na h2{
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 11px;
+        position: absolute;
+        top: 370px;
+        left: 29px;
+
+        transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
+    }
+
+    .na .shape3{
+        width: 20px;
+        border-bottom: 1px #000 solid;
+        position: absolute;
+        top: 440px;
+        left: 29px;
+
+        transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
+    }
+
+    .na .p5Rotate{
+        position: absolute;
+        top: 252px;
+        left: -8px;
+        transform: rotate(-90deg );
+        letter-spacing: 1.5px;
+        transition: .2s cubic-bezier(0, 0, 0.35, 1.09);
+        font-size: 8px;
+    }
+
+    .na #a1{
+        position: relative;
+        top: 200px;
+        left: 0;
+        width: 100%;
+        height: 500px;
+    }
+
+    .na .aoiroakairoPic{
+        position: absolute;
+        top: 381px;
+        left: 115px;
+
+        opacity: 0;
+        transition: .6s cubic-bezier(0, 0, 0.35, 1.09);
+    }
+
+
+    .na .aoiroakairoPic img{
+        width: 190px;
+        height: 253px;
+    }
+
+    .na .p6/*春の新作入荷しました*/{
+        font-family: "fot-tsukubrdgothic-std";
+        font-size: 12px;
+        position: absolute;
+        top: 660px;
+        left: 120px;
+        letter-spacing: 1px;
+
+        transition: .6s cubic-bezier(0, 0, 0.35, 1.09);
+        z-index: 2;
+    }
+
+    .na .taiyouPic{
+        position: absolute;
+        top: 704px;
+        left: 115px;
+
+        opacity: 0;
+        transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
+        z-index: 2;
+    }
+
+    .na .taiyouPic img{
+        width: 190px;
+        height: 253px;
+    }
+
+    .na .p7Rotate{
+        position: absolute;
+        top: 637px;
+        left: 0;
+        transform: rotate(-90deg);
+        letter-spacing: 1.5px;
+        transition: .2s cubic-bezier(0, 0, 0.35, 1.09);
+        z-index: 2;
+
+        font-size: 8px;
+    }
+
+    .na .p8/*春の新作入荷しました*/{
+        font-family: "fot-tsukubrdgothic-std";
+        font-size: 12px;
+        position: absolute;
+        top: 980px;
+        left: 120px;
+        letter-spacing: 1px;
+
+        transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
+        z-index: 2;
+    }
+
+    .na #bg2{
+        width: 100%;
+        height: 640px;
+        position: absolute;
+        top: 4266px;
+        transition: 1.5s cubic-bezier(0.09, 0.91, 0.47, 1.02);
+    }
+
+    .na .square2{
+        width: 640px;
+        height: 540px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        z-index: 1;
+        background-color: rgba(169, 217, 212, 0.5);
+        opacity: 0;
+    }
+
+
+
+
+
 /* NEWS */
 
 .news{
-    width: 100%;
+    width: 1270px;
     height: 430px;
     position: relative;
     margin: 0 auto 500px;
@@ -704,6 +848,103 @@ header .arrow1{
     left: 640px;
 }
 
+
+/* ----------------- RESPONSIVE --------------- */
+
+@media (max-width: 767px) {
+	/* 750px以下の場合に適応される */
+    .news{
+        width: 100%;
+        height: 430px;
+        position: relative;
+        margin: 0 auto 330px;
+    }
+
+    .news h2{
+        width: 244px;
+        height: 45px;
+        font-size: 20px;
+        letter-spacing: 11px;
+        position: absolute;
+        top: 450px;
+        left: 130px;
+
+        transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
+    }
+
+    .news .shape4{
+        width: 20px;
+        border-bottom: 1px #000 solid;
+        position: absolute;
+        top: 497px;
+        left: 130px;
+
+        transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
+    }
+
+    .news p{
+        font-size: 12px;
+    }
+
+    .news .p9 /*date1*/{
+        position: absolute;
+        top: 117px;
+        left: 35px;
+        letter-spacing: 2px;
+    }
+
+    .news .p10{
+        font-family: "fot-tsukubrdgothic-std";
+        position: absolute;
+        top: 147px;
+        left: 35px;
+        letter-spacing: 1px;
+    }
+
+    .news .p11/*date2*/{
+        position: absolute;
+        top: 221px;
+        left: 35px;
+        letter-spacing: 2px;
+    }
+
+    .news .p12{
+        font-family: "fot-tsukubrdgothic-std";
+        position: absolute;
+        top: 249px;
+        left: 35px;
+        letter-spacing: 1px;
+    }
+
+    .news .p13/*date3*/{
+        position: absolute;
+        top: 315px;
+        left: 35px;
+        letter-spacing: 2px;
+    }
+
+    .news .p14{
+        font-family: "fot-tsukubrdgothic-std";
+        position: absolute;
+        top: 340px;
+        left: 35px;
+        letter-spacing: 1px;
+    }
+
+    .news .arrow3{
+        position: absolute;
+        top: 390px;
+        left: 276px;
+    }
+
+    .news .arrow3 img{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+
+
 /* PAGE TOP */
 .pagetop p{
     width: 118px;
@@ -735,7 +976,7 @@ header .arrow1{
 
 /* FOOTER */
 footer{
-    width: 100%;
+    width: 1270px;
     height: 265px;
     position: relative;
     margin: 0 auto 90px;
@@ -778,6 +1019,59 @@ footer p{
     position: relative;
     margin: -440px auto 0px;
     z-index: 1;
+}
+
+
+/* ----------------- RESPONSIVE --------------- */
+@media (max-width: 767px) {
+	/* 750px以下の場合に適応される */
+    footer{
+        width: 100%;
+        height: 265px;
+        position: relative;
+        margin: 0 auto 90px;
+        z-index: 2;
+    }
+
+    footer ul{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto 0;
+    }
+
+
+    footer .contact{
+        width: 100%;
+        height: 20px;
+        font-size: 26px;
+        letter-spacing: 11px;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    footer a{
+            text-decoration: none;
+            color: #000;
+            font-size: 20px
+    }
+
+    footer p{
+        width: 100%;
+        height: 8px;
+        font-size: 8px;
+        letter-spacing: 5px;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .bottom{
+        position: relative;
+        margin: -440px auto 0px;
+        z-index: 1;
+    }
+
 }
 
 
