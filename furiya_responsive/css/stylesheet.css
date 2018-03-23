@@ -6,12 +6,12 @@ body{
 
 /* ----------------- RESPONSIVE --------------- */
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) { */
 	/* 750px以下の場合に適応される */
-    body{
+    /* body{
         overflow-x: hidden;
     }
-}
+} */
 
 @keyframes fade-in {
     0%{
