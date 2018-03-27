@@ -444,6 +444,11 @@ header .arrow1{
 
     opacity: 0;
     transition: .6s cubic-bezier(0, 0, 0.35, 1.09);
+    z-index: 5;
+}
+
+.aoiroakairoPic img:hover{
+	opacity: 0.7;
 }
 
 
@@ -469,6 +474,10 @@ header .arrow1{
     opacity: 0;
     transition: .4s cubic-bezier(0, 0, 0.35, 1.09);
     z-index: 2;
+}
+
+.taiyouPic img:hover{
+    opacity: 0.7;
 }
 
 .p7Rotate{
